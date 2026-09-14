@@ -19,10 +19,14 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 	{
-		name: "[Gen 4] Platinum Legacy VGC Draft",
+		section: "Legacy Team Formats"
+	},
+	{
+		name: "[Gen 4] VGC Draft",
 		mod: 'gen4legacy',
 		gameType: 'doubles',
 		searchShow: true,
+		bestOfDefault: true,
 		ruleset: ['Flat Rules', '! Adjust Level Down', 'Max Level = 50'],
 		banlist: [],
 	},
