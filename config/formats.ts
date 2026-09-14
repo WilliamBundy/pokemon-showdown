@@ -19,7 +19,7 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 	{
-		section: "Legacy Team Formats"
+		section: "Legacy Formats"
 	},
 	{
 		name: "[Gen 4] VGC Draft",
