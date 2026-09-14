@@ -1,488 +1,210 @@
 export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
-	adamantorb: {
-		inherit: true,
-		onBasePower(basePower, user, target, move) {
-			if (move && user.species.name === 'Dialga' && (move.type === 'Steel' || move.type === 'Dragon')) {
-				return this.chainModify(1.2);
-			}
-		},
+/*
+emitted by:
+cols = ['type', 70, 85, 100]
+for line in berrytable.split('\n'):
+    parts = list(line.split('\t'))
+    for i,part in enumerate(parts):
+        if cols[i] == 'type': continue
+        if part == 'NONE' or part == '': continue
+        berries = [part]
+        if ',' in part:
+            berries = [x.strip() for x in part.split(',')]
+        for b in berries:
+            bname = b.lower().replace(' ', '')
+            print(f'\t{bname}: {{')
+            print(f'\t\tnaturalGift: {{ basePower: {cols[i]} }},')
+            print('\t},')
+*/
+	chilanberry: {
+		naturalGift: { basePower: 70 },
 	},
-	bigroot: {
-		inherit: true,
-		onTryHeal(damage, target, source, effect) {
-			const heals = ['drain', 'leechseed', 'ingrain', 'aquaring'];
-			if (heals.includes(effect.id)) {
-				return Math.floor(damage * 1.3);
-			}
-		},
+	cheriberry: {
+		naturalGift: { basePower: 70 },
 	},
-	blacksludge: {
-		inherit: true,
-		onResidualOrder: 10,
-		onResidualSubOrder: 4,
+	occaberry: {
+		naturalGift: { basePower: 70 },
 	},
-	brightpowder: {
-		inherit: true,
-		onModifyAccuracyPriority: 5,
-		onModifyAccuracy(accuracy) {
-			if (typeof accuracy !== 'number') return;
-			this.debug('brightpowder - decreasing accuracy');
-			return accuracy * 0.9;
-		},
+	blukberry: {
+		naturalGift: { basePower: 85 },
 	},
-	choiceband: {
-		inherit: true,
-		onStart: undefined, // no inherit
-		onModifyMove: undefined, // no inherit
-		onAfterMove(pokemon) {
-			pokemon.addVolatile('choicelock');
-		},
+	watmelberry: {
+		naturalGift: { basePower: 100 },
 	},
-	choicescarf: {
-		inherit: true,
-		onStart: undefined, // no inherit
-		onModifyMove: undefined, // no inherit
-		onAfterMove(pokemon) {
-			pokemon.addVolatile('choicelock');
-		},
+	chestoberry: {
+		naturalGift: { basePower: 70 },
 	},
-	choicespecs: {
-		inherit: true,
-		onStart: undefined, // no inherit
-		onModifyMove: undefined, // no inherit
-		onAfterMove(pokemon) {
-			pokemon.addVolatile('choicelock');
-		},
+	passhoberry: {
+		naturalGift: { basePower: 70 },
+	},
+	nanabberry: {
+		naturalGift: { basePower: 85 },
+	},
+	durinberry: {
+		naturalGift: { basePower: 100 },
+	},
+	pechaberry: {
+		naturalGift: { basePower: 70 },
+	},
+	wacanberry: {
+		naturalGift: { basePower: 70 },
+	},
+	wepearberry: {
+		naturalGift: { basePower: 85 },
+	},
+	belueberry: {
+		naturalGift: { basePower: 100 },
+	},
+	rawstberry: {
+		naturalGift: { basePower: 70 },
+	},
+	rindoberry: {
+		naturalGift: { basePower: 70 },
+	},
+	pinapberry: {
+		naturalGift: { basePower: 85 },
+	},
+	liechiberry: {
+		naturalGift: { basePower: 100 },
+	},
+	aspearberry: {
+		naturalGift: { basePower: 70 },
+	},
+	yacheberry: {
+		naturalGift: { basePower: 70 },
+	},
+	pomegberry: {
+		naturalGift: { basePower: 85 },
+	},
+	ganlonberry: {
+		naturalGift: { basePower: 100 },
+	},
+	leppaberry: {
+		naturalGift: { basePower: 70 },
 	},
 	chopleberry: {
-		inherit: true,
-		onSourceModifyDamage(damage, source, target, move) {
-			if (move.causedCrashDamage) return damage;
-			if (move.type === 'Fighting' && target.getMoveHitData(move).typeMod > 0) {
-				const hitSub = target.volatiles['substitute'] && !move.flags['bypasssub'];
-				if (hitSub) return;
-
-				if (target.eatItem()) {
-					this.debug('-50% reduction');
-					this.add('-enditem', target, this.effect, '[weaken]');
-					return this.chainModify(0.5);
-				}
-			}
-		},
+		naturalGift: { basePower: 70 },
 	},
-	custapberry: {
-		inherit: true,
-		onFractionalPriority: undefined, // no inherit
-		onBeforeTurn(pokemon) {
-			if (pokemon.hp <= pokemon.maxhp / 4 || (pokemon.hp <= pokemon.maxhp / 2 && pokemon.ability === 'gluttony')) {
-				const action = this.queue.willMove(pokemon);
-				if (!action) return;
-				const otherAction = this.queue.list.find(a => a.choice === 'move' && a.move && a.pokemon !== pokemon);
-				if (!otherAction) return;
-				this.queue.insertChoice({
-					choice: 'event',
-					event: 'Custap',
-					priority: action.priority + 0.1,
-					pokemon: action.pokemon,
-					move: action.move,
-					targetLoc: action.targetLoc,
-				});
-			}
-		},
-		onCustap(pokemon) {
-			const action = this.queue.willMove(pokemon);
-			this.debug(`custap action: ${action?.moveid}`);
-			if (action && pokemon.eatItem()) {
-				this.queue.cancelAction(pokemon);
-				this.add('-activate', pokemon, 'item: Custap Berry', '[consumed]');
-				this.runAction(action);
-			}
-		},
+	kelpsyberry: {
+		naturalGift: { basePower: 85 },
 	},
-	deepseascale: {
-		inherit: true,
-		onModifySpD(spd, pokemon) {
-			if (pokemon.species.name === 'Clamperl') {
-				return this.chainModify(2);
-			}
-		},
+	salacberry: {
+		naturalGift: { basePower: 100 },
 	},
-	deepseatooth: {
-		inherit: true,
-		onModifySpA(spa, pokemon) {
-			if (pokemon.species.name === 'Clamperl') {
-				return this.chainModify(2);
-			}
-		},
+	oranberry: {
+		naturalGift: { basePower: 70 },
 	},
-	dracoplate: {
-		inherit: true,
-		onTakeItem: true,
+	kebiaberry: {
+		naturalGift: { basePower: 70 },
 	},
-	dreadplate: {
-		inherit: true,
-		onTakeItem: true,
+	qualotberry: {
+		naturalGift: { basePower: 85 },
 	},
-	earthplate: {
-		inherit: true,
-		onTakeItem: true,
+	petayaberry: {
+		naturalGift: { basePower: 100 },
 	},
-	fastball: {
-		inherit: true,
-		isNonstandard: null,
+	persimberry: {
+		naturalGift: { basePower: 70 },
 	},
-	fistplate: {
-		inherit: true,
-		onTakeItem: true,
+	shucaberry: {
+		naturalGift: { basePower: 70 },
 	},
-	flameorb: {
-		inherit: true,
-		onResidualOrder: 10,
-		onResidualSubOrder: 20,
+	hondewberry: {
+		naturalGift: { basePower: 85 },
 	},
-	flameplate: {
-		inherit: true,
-		onTakeItem: true,
+	apicotberry: {
+		naturalGift: { basePower: 100 },
 	},
-	focussash: {
-		inherit: true,
-		onDamage: undefined, // no inherit
-		onTryHit(target, source, move) {
-			if (target !== source && target.hp === target.maxhp) {
-				target.addVolatile('focussash');
-			}
-		},
-		condition: {
-			duration: 1,
-			onDamage(damage, target, source, effect) {
-				if (effect && effect.effectType === 'Move' && damage >= target.hp) {
-					this.effectState.activated = true;
-					return target.hp - 1;
-				}
-			},
-			onAfterMoveSecondary(target) {
-				if (this.effectState.activated) target.useItem();
-				target.removeVolatile('focussash');
-			},
-		},
+	lumberry: {
+		naturalGift: { basePower: 70 },
 	},
-	fullincense: {
-		inherit: true,
-		onFractionalPriorityPriority: 1,
-		onFractionalPriority: -0.2,
+	cobaberry: {
+		naturalGift: { basePower: 70 },
 	},
-	griseousorb: {
-		inherit: true,
-		onBasePower(basePower, user, target, move) {
-			if (user.species.num === 487 && (move.type === 'Ghost' || move.type === 'Dragon')) {
-				return this.chainModify(1.2);
-			}
-		},
-		onTakeItem: false,
-		onSetAbility: false,
+	grepaberry: {
+		naturalGift: { basePower: 85 },
 	},
-	heavyball: {
-		inherit: true,
-		isNonstandard: null,
+	lansatberry: {
+		naturalGift: { basePower: 100 },
 	},
-	icicleplate: {
-		inherit: true,
-		onTakeItem: true,
+	sitrusberry: {
+		naturalGift: { basePower: 70 },
 	},
-	insectplate: {
-		inherit: true,
-		onTakeItem: true,
+	payapaberry: {
+		naturalGift: { basePower: 70 },
 	},
-	ironball: {
-		inherit: true,
-		onEffectiveness: undefined, // no inherit
+	tamatoberry: {
+		naturalGift: { basePower: 85 },
 	},
-	ironplate: {
-		inherit: true,
-		onTakeItem: true,
+	starfberry: {
+		naturalGift: { basePower: 100 },
 	},
-	kingsrock: {
-		inherit: true,
-		onModifyMove(move) {
-			const affectedByKingsRock = [
-				'aerialace', 'aeroblast', 'aircutter', 'airslash', 'aquajet', 'aquatail', 'armthrust', 'assurance', 'attackorder', 'aurasphere', 'avalanche', 'barrage', 'beatup', 'bide', 'bind', 'blastburn', 'bonerush', 'bonemerang', 'bounce', 'bravebird', 'brickbreak', 'brine', 'bugbite', 'bulletpunch', 'bulletseed', 'chargebeam', 'clamp', 'closecombat', 'cometpunch', 'crabhammer', 'crosschop', 'crosspoison', 'crushgrip', 'cut', 'darkpulse', 'dig', 'discharge', 'dive', 'doublehit', 'doublekick', 'doubleslap', 'doubleedge', 'dracometeor', 'dragonbreath', 'dragonclaw', 'dragonpulse', 'dragonrage', 'dragonrush', 'drainpunch', 'drillpeck', 'earthpower', 'earthquake', 'eggbomb', 'endeavor', 'eruption', 'explosion', 'extremespeed', 'falseswipe', 'feintattack', 'firefang', 'firespin', 'flail', 'flashcannon', 'fly', 'forcepalm', 'frenzyplant', 'frustration', 'furyattack', 'furycutter', 'furyswipes', 'gigaimpact', 'grassknot', 'gunkshot', 'gust', 'gyroball', 'hammerarm', 'headsmash', 'hiddenpower', 'highjumpkick', 'hornattack', 'hydrocannon', 'hydropump', 'hyperbeam', 'iceball', 'icefang', 'iceshard', 'iciclespear', 'ironhead', 'judgment', 'jumpkick', 'karatechop', 'lastresort', 'lavaplume', 'leafblade', 'leafstorm', 'lowkick', 'machpunch', 'magicalleaf', 'magmastorm', 'magnetbomb', 'magnitude', 'megakick', 'megapunch', 'megahorn', 'meteormash', 'mirrorshot', 'mudbomb', 'mudshot', 'muddywater', 'nightshade', 'nightslash', 'ominouswind', 'outrage', 'overheat', 'payday', 'payback', 'peck', 'petaldance', 'pinmissile', 'pluck', 'poisonjab', 'poisontail', 'pound', 'powergem', 'powerwhip', 'psychoboost', 'psychocut', 'psywave', 'punishment', 'quickattack', 'rage', 'rapidspin', 'razorleaf', 'razorwind', 'return', 'revenge', 'reversal', 'roaroftime', 'rockblast', 'rockclimb', 'rockthrow', 'rockwrecker', 'rollingkick', 'rollout', 'sandtomb', 'scratch', 'seedbomb', 'seedflare', 'seismictoss', 'selfdestruct', 'shadowclaw', 'shadowforce', 'shadowpunch', 'shadowsneak', 'shockwave', 'signalbeam', 'silverwind', 'skullbash', 'skyattack', 'skyuppercut', 'slam', 'slash', 'snore', 'solarbeam', 'sonicboom', 'spacialrend', 'spikecannon', 'spitup', 'steelwing', 'stoneedge', 'strength', 'struggle', 'submission', 'suckerpunch', 'surf', 'swift', 'tackle', 'takedown', 'thrash', 'thunderfang', 'triplekick', 'trumpcard', 'twister', 'uturn', 'uproar', 'vacuumwave', 'visegrip', 'vinewhip', 'vitalthrow', 'volttackle', 'wakeupslap', 'watergun', 'waterpulse', 'waterfall', 'weatherball', 'whirlpool', 'wingattack', 'woodhammer', 'wrap', 'wringout', 'xscissor', 'zenheadbutt',
-			];
-			if (affectedByKingsRock.includes(move.id)) {
-				if (!move.secondaries) move.secondaries = [];
-				move.secondaries.push({
-					chance: 10,
-					volatileStatus: 'flinch',
-				});
-			}
-		},
+	figyberry: {
+		naturalGift: { basePower: 70 },
 	},
-	laggingtail: {
-		inherit: true,
-		onFractionalPriorityPriority: 1,
-		onFractionalPriority: -0.2,
+	tangaberry: {
+		naturalGift: { basePower: 70 },
 	},
-	laxincense: {
-		inherit: true,
-		onModifyAccuracyPriority: 5,
-		onModifyAccuracy(accuracy) {
-			if (typeof accuracy !== 'number') return;
-			this.debug('lax incense - decreasing accuracy');
-			return accuracy * 0.9;
-		},
+	cornnberry: {
+		naturalGift: { basePower: 85 },
 	},
-	leftovers: {
-		inherit: true,
-		onResidualOrder: 10,
-		onResidualSubOrder: 4,
+	enigmaberry: {
+		naturalGift: { basePower: 100 },
 	},
-	levelball: {
-		inherit: true,
-		isNonstandard: null,
+	wikiberry: {
+		naturalGift: { basePower: 70 },
 	},
-	lifeorb: {
-		inherit: true,
-		onModifyDamage: undefined, // no inherit
-		onAfterMoveSecondarySelf: undefined, // no inherit
-		onBasePower(basePower, user, target) {
-			if (!target.volatiles['substitute']) {
-				user.addVolatile('lifeorb');
-			}
-			return basePower;
-		},
-		onModifyDamagePhase2(damage, source, target, move) {
-			if (!move.flags['futuremove']) return damage * 1.3;
-		},
-		condition: {
-			duration: 1,
-			onAfterMoveSecondarySelf(source, target, move) {
-				if (move && move.effectType === 'Move' && source?.volatiles['lifeorb']) {
-					this.damage(source.baseMaxhp / 10, source, source, this.dex.items.get('lifeorb'));
-					source.removeVolatile('lifeorb');
-				}
-			},
-		},
+	chartiberry: {
+		naturalGift: { basePower: 70 },
 	},
-	lightball: {
-		inherit: true,
-		onModifyAtk: undefined, // no inherit
-		onModifySpA: undefined, // no inherit
-		onBasePower(basePower, pokemon) {
-			if (pokemon.species.name === 'Pikachu') {
-				return this.chainModify(2);
-			}
-		},
-	},
-	loveball: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	luckypunch: {
-		inherit: true,
-		onModifyCritRatio(critRatio, user) {
-			if (user.species.name === 'Chansey') {
-				return critRatio + 2;
-			}
-		},
-	},
-	lureball: {
-		inherit: true,
-		isNonstandard: null,
-	},
-	lustrousorb: {
-		inherit: true,
-		onBasePower(basePower, user, target, move) {
-			if (move && user.species.name === 'Palkia' && (move.type === 'Water' || move.type === 'Dragon')) {
-				return this.chainModify(1.2);
-			}
-		},
-	},
-	meadowplate: {
-		inherit: true,
-		onTakeItem: true,
-	},
-	mentalherb: {
-		inherit: true,
-		fling: {
-			basePower: 10,
-			effect(pokemon) {
-				if (pokemon.removeVolatile('attract')) {
-					this.add('-end', pokemon, 'move: Attract', '[from] item: Mental Herb');
-				}
-			},
-		},
-		onUpdate(pokemon) {
-			if (pokemon.volatiles['attract'] && pokemon.useItem()) {
-				pokemon.removeVolatile('attract');
-				this.add('-end', pokemon, 'move: Attract', '[from] item: Mental Herb');
-			}
-		},
-	},
-	metronome: {
-		inherit: true,
-		condition: {
-			inherit: true,
-			onTryMove(pokemon, target, move) {
-				if (!pokemon.hasItem('metronome')) {
-					pokemon.removeVolatile('metronome');
-					return;
-				}
-				if (this.effectState.lastMove === move.id && pokemon.moveLastTurnResult) {
-					this.effectState.numConsecutive++;
-				} else {
-					this.effectState.numConsecutive = 0;
-				}
-				this.effectState.lastMove = move.id;
-			},
-			onModifyDamage: undefined, // no inherit
-			onModifyDamagePhase2(damage, source, target, move) {
-				return damage * (1 + (this.effectState.numConsecutive / 10));
-			},
-		},
+	magostberry: {
+		naturalGift: { basePower: 85 },
 	},
 	micleberry: {
-		inherit: true,
-		condition: {
-			inherit: true,
-			onSourceModifyAccuracyPriority: 3,
-			onSourceModifyAccuracy(accuracy, target, source) {
-				this.add('-enditem', source, 'Micle Berry');
-				source.removeVolatile('micleberry');
-				if (typeof accuracy === 'number') {
-					return accuracy * 1.2;
-				}
-			},
-		},
+		naturalGift: { basePower: 100 },
 	},
-	mindplate: {
-		inherit: true,
-		onTakeItem: true,
+	magoberry: {
+		naturalGift: { basePower: 70 },
 	},
-	moonball: {
-		inherit: true,
-		isNonstandard: null,
+	kasibberry: {
+		naturalGift: { basePower: 70 },
 	},
-	quickclaw: {
-		inherit: true,
-		onFractionalPriority: undefined, // no inherit
-		onBeforeTurn(pokemon) {
-			if (this.randomChance(1, 5)) {
-				const action = this.queue.willMove(pokemon);
-				if (!action) return;
-				const otherAction = this.queue.list.find(a => a.choice === 'move' && a.move && a.pokemon !== pokemon);
-				if (!otherAction) return;
-				this.queue.insertChoice({
-					choice: 'event',
-					event: 'Custap',
-					priority: action.priority + 0.1,
-					pokemon: action.pokemon,
-					move: action.move,
-					targetLoc: action.targetLoc,
-				});
-			}
-		},
-		onCustap(pokemon) {
-			const action = this.queue.willMove(pokemon);
-			if (action) {
-				this.queue.cancelAction(pokemon);
-				this.add('-activate', pokemon, 'item: Quick Claw');
-				this.runAction(action);
-			}
-		},
+	rabutaberry: {
+		naturalGift: { basePower: 85 },
 	},
-	quickpowder: {
-		inherit: true,
-		onModifySpe(spe, pokemon) {
-			if (pokemon.species.name === 'Ditto') {
-				return this.chainModify(2);
-			}
-		},
+	custapberry: {
+		naturalGift: { basePower: 100 },
 	},
-	razorfang: {
-		inherit: true,
-		onModifyMove(move) {
-			const affectedByRazorFang = [
-				'aerialace', 'aeroblast', 'aircutter', 'airslash', 'aquajet', 'aquatail', 'armthrust', 'assurance', 'attackorder', 'aurasphere', 'avalanche', 'barrage', 'beatup', 'bide', 'bind', 'blastburn', 'bonerush', 'bonemerang', 'bounce', 'bravebird', 'brickbreak', 'brine', 'bugbite', 'bulletpunch', 'bulletseed', 'chargebeam', 'clamp', 'closecombat', 'cometpunch', 'crabhammer', 'crosschop', 'crosspoison', 'crushgrip', 'cut', 'darkpulse', 'dig', 'discharge', 'dive', 'doublehit', 'doublekick', 'doubleslap', 'doubleedge', 'dracometeor', 'dragonbreath', 'dragonclaw', 'dragonpulse', 'dragonrage', 'dragonrush', 'drainpunch', 'drillpeck', 'earthpower', 'earthquake', 'eggbomb', 'endeavor', 'eruption', 'explosion', 'extremespeed', 'falseswipe', 'feintattack', 'firefang', 'firespin', 'flail', 'flashcannon', 'fly', 'forcepalm', 'frenzyplant', 'frustration', 'furyattack', 'furycutter', 'furyswipes', 'gigaimpact', 'grassknot', 'gunkshot', 'gust', 'gyroball', 'hammerarm', 'headsmash', 'hiddenpower', 'highjumpkick', 'hornattack', 'hydrocannon', 'hydropump', 'hyperbeam', 'iceball', 'icefang', 'iceshard', 'iciclespear', 'ironhead', 'judgment', 'jumpkick', 'karatechop', 'lastresort', 'lavaplume', 'leafblade', 'leafstorm', 'lowkick', 'machpunch', 'magicalleaf', 'magmastorm', 'magnetbomb', 'magnitude', 'megakick', 'megapunch', 'megahorn', 'meteormash', 'mirrorshot', 'mudbomb', 'mudshot', 'muddywater', 'nightshade', 'nightslash', 'ominouswind', 'outrage', 'overheat', 'payday', 'payback', 'peck', 'petaldance', 'pinmissile', 'pluck', 'poisonjab', 'poisontail', 'pound', 'powergem', 'powerwhip', 'psychoboost', 'psychocut', 'psywave', 'punishment', 'quickattack', 'rage', 'rapidspin', 'razorleaf', 'razorwind', 'return', 'revenge', 'reversal', 'roaroftime', 'rockblast', 'rockclimb', 'rockthrow', 'rockwrecker', 'rollingkick', 'rollout', 'sandtomb', 'scratch', 'seedbomb', 'seedflare', 'seismictoss', 'selfdestruct', 'shadowclaw', 'shadowforce', 'shadowpunch', 'shadowsneak', 'shockwave', 'signalbeam', 'silverwind', 'skullbash', 'skyattack', 'skyuppercut', 'slam', 'slash', 'snore', 'solarbeam', 'sonicboom', 'spacialrend', 'spikecannon', 'spitup', 'steelwing', 'stoneedge', 'strength', 'struggle', 'submission', 'suckerpunch', 'surf', 'swift', 'tackle', 'takedown', 'thrash', 'thunderfang', 'triplekick', 'trumpcard', 'twister', 'uturn', 'uproar', 'vacuumwave', 'visegrip', 'vinewhip', 'vitalthrow', 'volttackle', 'wakeupslap', 'watergun', 'waterpulse', 'waterfall', 'weatherball', 'whirlpool', 'wingattack', 'woodhammer', 'wrap', 'wringout', 'xscissor', 'zenheadbutt',
-			];
-			if (affectedByRazorFang.includes(move.id)) {
-				if (!move.secondaries) move.secondaries = [];
-				move.secondaries.push({
-					chance: 10,
-					volatileStatus: 'flinch',
-				});
-			}
-		},
+	aguavberry: {
+		naturalGift: { basePower: 70 },
 	},
-	skyplate: {
-		inherit: true,
-		onTakeItem: true,
+	habanberry: {
+		naturalGift: { basePower: 70 },
 	},
-	splashplate: {
-		inherit: true,
-		onTakeItem: true,
+	nomelberry: {
+		naturalGift: { basePower: 85 },
 	},
-	spookyplate: {
-		inherit: true,
-		onTakeItem: true,
+	jabocaberry: {
+		naturalGift: { basePower: 100 },
 	},
-	sportball: {
-		inherit: true,
-		isNonstandard: null,
+	iapapaberry: {
+		naturalGift: { basePower: 70 },
 	},
-	stick: {
-		inherit: true,
-		onModifyCritRatio(critRatio, user) {
-			if (user.species.id === 'farfetchd') {
-				return critRatio + 2;
-			}
-		},
+	colburberry: {
+		naturalGift: { basePower: 70 },
 	},
-	stickybarb: {
-		inherit: true,
-		onResidualOrder: 10,
-		onResidualSubOrder: 20,
+	spelonberry: {
+		naturalGift: { basePower: 85 },
 	},
-	stoneplate: {
-		inherit: true,
-		onTakeItem: true,
+	rowapberry: {
+		naturalGift: { basePower: 100 },
 	},
-	thickclub: {
-		inherit: true,
-		onModifyAtk(atk, pokemon) {
-			if (pokemon.species.name === 'Cubone' || pokemon.species.name === 'Marowak') {
-				return this.chainModify(2);
-			}
-		},
+	razzberry: {
+		naturalGift: { basePower: 70 },
 	},
-	toxicorb: {
-		inherit: true,
-		onResidualOrder: 10,
-		onResidualSubOrder: 20,
+	babiriberry: {
+		naturalGift: { basePower: 70 },
 	},
-	toxicplate: {
-		inherit: true,
-		onTakeItem: true,
-	},
-	widelens: {
-		inherit: true,
-		onSourceModifyAccuracyPriority: 4,
-		onSourceModifyAccuracy(accuracy) {
-			if (typeof accuracy === 'number') {
-				return accuracy * 1.1;
-			}
-		},
-	},
-	zapplate: {
-		inherit: true,
-		onTakeItem: true,
-	},
-	zoomlens: {
-		inherit: true,
-		onSourceModifyAccuracyPriority: 4,
-		onSourceModifyAccuracy(accuracy, target) {
-			if (typeof accuracy === 'number' && !this.queue.willMove(target)) {
-				this.debug('Zoom Lens boosting accuracy');
-				return accuracy * 1.2;
-			}
-		},
-	},
-};
+	pamtreberry: {
+		naturalGift: { basePower: 85 },
+	},};
