@@ -1,5 +1,5 @@
 export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDataTable = {
-	brn: 	raindance: {
+	raindance: {
 		inherit: true,
 		onFieldResidualOrder: 8,
 		duration: 5,
