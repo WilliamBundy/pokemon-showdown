@@ -1,4 +1,4 @@
-export const inherit: true, learnsets: import('../../../sim/dex-species').Moddedinherit: true, learnsetDataTable = {
+export const inherit: true, learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTable = {
   bulbasaur: {
     inherit: true, learnset: {
     tackle: ["4L1"],
