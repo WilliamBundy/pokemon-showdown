@@ -705,6 +705,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	knockoff: {
 		inherit: true,
+		basePower: 50,
 		onAfterHit(target, source, move) {
 			if (!target.item) return;
 			const item = target.getItem();
