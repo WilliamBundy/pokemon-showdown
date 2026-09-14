@@ -156,7 +156,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	bind: {
 		inherit: true,
-		basePower: 35
+		basePower: 35,
 		accuracy: 90,
 	},
 	bonerush: {
