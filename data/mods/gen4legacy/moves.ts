@@ -69,6 +69,11 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 			this.actions.useMove(randomMove, target);
 		},
 	},
+	barrage: {
+		inherit: true,
+		basePower: 20,
+		accuracy: 100
+	}
 	beatup: {
 		inherit: true,
 		basePower: 10,
@@ -151,11 +156,12 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 	},
 	bind: {
 		inherit: true,
-		accuracy: 75,
+		basePower: 35
+		accuracy: 90,
 	},
 	bonerush: {
 		inherit: true,
-		accuracy: 80,
+		accuracy: 100,
 	},
 	bravebird: {
 		inherit: true,

@@ -155,6 +155,14 @@ export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDa
 			}
 			return 5;
 		},
+		onFieldStart(field, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				this.add('-weather', 'RainDance', '[from] ability: ' + effect.name, `[of] ${source}`);
+			} else {
+				this.add('-weather', 'RainDance');
+			}
+		},
+
 	},
 	sunnyday: {
 		inherit: true,
@@ -166,6 +174,13 @@ export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDa
 			}
 			return 5;
 		},
+		onFieldStart(battle, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				this.add('-weather', 'SunnyDay', '[from] ability: ' + effect.name, `[of] ${source}`);
+			} else {
+				this.add('-weather', 'SunnyDay');
+			}
+		},
 	},
 	sandstorm: {
 		inherit: true,
@@ -176,6 +191,13 @@ export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDa
 				return 8;
 			}
 			return 5;
+		},
+		onFieldStart(field, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				this.add('-weather', 'Sandstorm', '[from] ability: ' + effect.name, `[of] ${source}`);
+			} else {
+				this.add('-weather', 'Sandstorm');
+			}
 		},
 	},
 	hail: {
@@ -193,6 +215,13 @@ export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDa
 				return 8;
 			}
 			return 5;
+		},
+		onFieldStart(field, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				this.add('-weather', 'Hail', '[from] ability: ' + effect.name, `[of] ${source}`);
+			} else {
+				this.add('-weather', 'Hail');
+			}
 		},
 	},
 	// Arceus's true typing for all its formes is Normal, and it's only Multitype
