@@ -604,7 +604,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedSpeciesDataTabl
 		baseStats: { hp: 60, atk: 75, def: 85, spa: 100, spd: 85, spe: 115},
 		abilities: { 0: "Illuminate", 1: "Natural Cure" },
 	},
-	mr.mime: {
+	mrmime: {
 		inherit: true,
 		baseStats: { hp: 40, atk: 45, def: 65, spa: 100, spd: 120, spe: 90},
 		abilities: { 0: "Soundproof", 1: "Filter" },

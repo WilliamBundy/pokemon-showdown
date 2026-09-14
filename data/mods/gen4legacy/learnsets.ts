@@ -8572,7 +8572,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     powergem: ["3L1"],
     },
   },
-  mr.mime: {
+  mrmime: {
     learnset: {
     barrier: ["3L1"],
     confusion: ["3L1"],
