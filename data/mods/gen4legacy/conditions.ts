@@ -148,14 +148,35 @@ export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDa
 	raindance: {
 		inherit: true,
 		onFieldResidualOrder: 8,
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('damprock')) {
+				return 8;
+			}
+			return 5;
+		},
 	},
 	sunnyday: {
 		inherit: true,
 		onFieldResidualOrder: 8,
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('heatrock')) {
+				return 8;
+			}
+			return 5;
+		},
 	},
 	sandstorm: {
 		inherit: true,
 		onFieldResidualOrder: 8,
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('smoothrock')) {
+				return 8;
+			}
+			return 5;
+		},
 	},
 	hail: {
 		inherit: true,
@@ -165,6 +186,13 @@ export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDa
 			if (pokemon.hasType('Ice') && this.field.isWeather('hail')) {
 				return this.modify(def, 1.5);
 			}
+		},
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('icyrock')) {
+				return 8;
+			}
+			return 5;
 		},
 	},
 	// Arceus's true typing for all its formes is Normal, and it's only Multitype
