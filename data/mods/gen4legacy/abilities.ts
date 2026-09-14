@@ -127,6 +127,18 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 3,
 		num: 5,
 	},
+	tangledfeet: {
+		inherit: false,
+		onTryAddVolatile(status, pokemon) {
+			if (status.id === 'confusion') {
+				this.boost({atk:1, def:1, spa:1, spd:1, spe:1, evasion:1})
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Tangled Feet",
+		rating: 1,
+		num: 77,
+	},
 
 
 };
