@@ -1,6 +1,6 @@
-export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTable = {
+export const inherit: true, learnsets: import('../../../sim/dex-species').Moddedinherit: true, learnsetDataTable = {
   bulbasaur: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     leechseed: ["4L1"],
@@ -69,7 +69,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ivysaur: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     leechseed: ["4L1"],
@@ -138,7 +138,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   venusaur: {
-    learnset: {
+    inherit: true, learnset: {
     vinewhip: ["4L1"],
     tackle: ["4L1"],
     growl: ["4L1"],
@@ -215,7 +215,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   charmander: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     growl: ["4L1"],
     ember: ["4L1"],
@@ -291,7 +291,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   charmeleon: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     growl: ["4L1"],
     ember: ["4L1"],
@@ -367,7 +367,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   charizard: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     growl: ["4L1"],
     ember: ["4L1"],
@@ -461,7 +461,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   squirtle: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     bubble: ["4L1"],
@@ -540,7 +540,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wartortle: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     bubble: ["4L1"],
@@ -619,7 +619,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   blastoise: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     withdraw: ["4L1"],
@@ -710,7 +710,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   caterpie: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     stringshot: ["4L1"],
     bugbite: ["4L1"],
@@ -718,7 +718,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   metapod: {
-    learnset: {
+    inherit: true, learnset: {
     harden: ["4L1"],
     irondefense: ["4L1"],
     stringshot: ["4L1"],
@@ -728,7 +728,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   butterfree: {
-    learnset: {
+    inherit: true, learnset: {
     confusion: ["4L1"],
     poisonpowder: ["4L1"],
     stunspore: ["4L1"],
@@ -794,14 +794,14 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   weedle: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     stringshot: ["4L1"],
     bugbite: ["4L1"],
     },
   },
   kakuna: {
-    learnset: {
+    inherit: true, learnset: {
     harden: ["4L1"],
     irondefense: ["4L1"],
     stringshot: ["4L1"],
@@ -810,7 +810,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   beedrill: {
-    learnset: {
+    inherit: true, learnset: {
     furyattack: ["4L1"],
     focusenergy: ["4L1"],
     twineedle: ["4L1"],
@@ -876,7 +876,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   pidgey: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     sandattack: ["4L1"],
     gust: ["4L1"],
@@ -932,7 +932,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   pidgeotto: {
-    learnset: {
+    inherit: true, learnset: {
     gust: ["4L1"],
     sandattack: ["4L1"],
     tackle: ["4L1"],
@@ -989,7 +989,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   pidgeot: {
-    learnset: {
+    inherit: true, learnset: {
     gust: ["4L1"],
     sandattack: ["4L1"],
     tackle: ["4L1"],
@@ -1051,7 +1051,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rattata: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     quickattack: ["4L1"],
@@ -1121,7 +1121,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   raticate: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     quickattack: ["4L1"],
@@ -1200,7 +1200,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   spearow: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     peck: ["4L1"],
     leer: ["4L1"],
@@ -1261,7 +1261,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   fearow: {
-    learnset: {
+    inherit: true, learnset: {
     furyattack: ["4L1"],
     leer: ["4L1"],
     growl: ["4L1"],
@@ -1323,7 +1323,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ekans: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     leer: ["4L1"],
     poisonsting: ["4L1"],
@@ -1389,7 +1389,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   arbok: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     poisonsting: ["4L1"],
     leer: ["4L1"],
@@ -1462,7 +1462,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   pikachu: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     thundershock: ["4L1"],
     tailwhip: ["4L1"],
@@ -1544,7 +1544,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   raichu: {
-    learnset: {
+    inherit: true, learnset: {
     tailwhip: ["4L1"],
     thundershock: ["4L1"],
     thunderbolt: ["4L1"],
@@ -1627,7 +1627,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sandshrew: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     defensecurl: ["4L1"],
     sandattack: ["4L1"],
@@ -1698,7 +1698,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sandslash: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     sandattack: ["4L1"],
     defensecurl: ["4L1"],
@@ -1774,7 +1774,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   nidoranf: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     growl: ["4L1"],
     tailwhip: ["4L1"],
@@ -1841,7 +1841,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   nidorina: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     growl: ["4L1"],
     tailwhip: ["4L1"],
@@ -1908,7 +1908,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   nidoqueen: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     doublekick: ["4L1"],
     tailwhip: ["4L1"],
@@ -2012,7 +2012,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   nidoranm: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     peck: ["4L1"],
     focusenergy: ["4L1"],
@@ -2077,7 +2077,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   nidorino: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     peck: ["4L1"],
     focusenergy: ["4L1"],
@@ -2142,7 +2142,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   nidoking: {
-    learnset: {
+    inherit: true, learnset: {
     doublekick: ["4L1"],
     poisonsting: ["4L1"],
     peck: ["4L1"],
@@ -2246,7 +2246,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   clefairy: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     growl: ["4L1"],
     encore: ["4L1"],
@@ -2358,7 +2358,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   clefable: {
-    learnset: {
+    inherit: true, learnset: {
     doubleslap: ["4L1"],
     sing: ["4L1"],
     minimize: ["4L1"],
@@ -2473,7 +2473,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   vulpix: {
-    learnset: {
+    inherit: true, learnset: {
     ember: ["4L1"],
     tailwhip: ["4L1"],
     roar: ["4L1"],
@@ -2537,7 +2537,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ninetales: {
-    learnset: {
+    inherit: true, learnset: {
     ember: ["4L1"],
     quickattack: ["4L1"],
     confuseray: ["4L1"],
@@ -2604,7 +2604,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   jigglypuff: {
-    learnset: {
+    inherit: true, learnset: {
     sing: ["4L1"],
     defensecurl: ["4L1"],
     pound: ["4L1"],
@@ -2700,7 +2700,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wigglytuff: {
-    learnset: {
+    inherit: true, learnset: {
     doubleslap: ["4L1"],
     sing: ["4L1"],
     disable: ["4L1"],
@@ -2800,7 +2800,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   zubat: {
-    learnset: {
+    inherit: true, learnset: {
     leechlife: ["4L1"],
     supersonic: ["4L1"],
     astonish: ["4L1"],
@@ -2868,7 +2868,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   golbat: {
-    learnset: {
+    inherit: true, learnset: {
     supersonic: ["4L1"],
     screech: ["4L1"],
     leechlife: ["4L1"],
@@ -2939,7 +2939,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   oddish: {
-    learnset: {
+    inherit: true, learnset: {
     absorb: ["4L1"],
     sweetscent: ["4L1"],
     poisonpowder: ["4L1"],
@@ -2992,7 +2992,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gloom: {
-    learnset: {
+    inherit: true, learnset: {
     absorb: ["4L1"],
     poisonpowder: ["4L1"],
     sweetscent: ["4L1"],
@@ -3047,7 +3047,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   vileplume: {
-    learnset: {
+    inherit: true, learnset: {
     absorb: ["4L1"],
     megadrain: ["4L1"],
     stunspore: ["4L1"],
@@ -3106,7 +3106,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   paras: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     stunspore: ["4L1"],
     poisonpowder: ["4L1"],
@@ -3173,7 +3173,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   parasect: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     poisonpowder: ["4L1"],
     stunspore: ["4L1"],
@@ -3243,7 +3243,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   venonat: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     disable: ["4L1"],
     foresight: ["4L1"],
@@ -3295,7 +3295,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   venomoth: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     supersonic: ["4L1"],
     disable: ["4L1"],
@@ -3362,7 +3362,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   diglett: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     sandattack: ["4L1"],
     growl: ["4L1"],
@@ -3420,7 +3420,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dugtrio: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     sandattack: ["4L1"],
     growl: ["4L1"],
@@ -3483,7 +3483,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   meowth: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     growl: ["4L1"],
     bite: ["4L1"],
@@ -3569,7 +3569,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   persian: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     bite: ["4L1"],
     growl: ["4L1"],
@@ -3657,7 +3657,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   psyduck: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     watersport: ["4L1"],
     tailwhip: ["4L1"],
@@ -3743,7 +3743,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   golduck: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     tailwhip: ["4L1"],
     disable: ["4L1"],
@@ -3838,7 +3838,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mankey: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     lowkick: ["4L1"],
@@ -3929,7 +3929,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   primeape: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     lowkick: ["4L1"],
@@ -4026,7 +4026,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   growlithe: {
-    learnset: {
+    inherit: true, learnset: {
     bite: ["4L1"],
     roar: ["4L1"],
     ember: ["4L1"],
@@ -4084,7 +4084,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   arcanine: {
-    learnset: {
+    inherit: true, learnset: {
     bite: ["4L1"],
     roar: ["4L1"],
     ember: ["4L1"],
@@ -4150,7 +4150,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   poliwag: {
-    learnset: {
+    inherit: true, learnset: {
     bubble: ["4L1"],
     hypnosis: ["4L1"],
     watergun: ["4L1"],
@@ -4209,7 +4209,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   poliwhirl: {
-    learnset: {
+    inherit: true, learnset: {
     watergun: ["4L1"],
     hypnosis: ["4L1"],
     bubble: ["4L1"],
@@ -4281,7 +4281,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   poliwrath: {
-    learnset: {
+    inherit: true, learnset: {
     doubleslap: ["4L1"],
     watergun: ["4L1"],
     submission: ["4L1"],
@@ -4368,7 +4368,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   abra: {
-    learnset: {
+    inherit: true, learnset: {
     teleport: ["4L1"],
     firepunch: ["4L1"],
     icepunch: ["4L1"],
@@ -4443,7 +4443,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kadabra: {
-    learnset: {
+    inherit: true, learnset: {
     confusion: ["4L1"],
     teleport: ["4L1"],
     kinesis: ["4L1"],
@@ -4526,7 +4526,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   alakazam: {
-    learnset: {
+    inherit: true, learnset: {
     confusion: ["4L1"],
     teleport: ["4L1"],
     kinesis: ["4L1"],
@@ -4612,7 +4612,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   machop: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     lowkick: ["4L1"],
     focusenergy: ["4L1"],
@@ -4689,7 +4689,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   machoke: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     lowkick: ["4L1"],
     focusenergy: ["4L1"],
@@ -4766,7 +4766,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   machamp: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     lowkick: ["4L1"],
     focusenergy: ["4L1"],
@@ -4846,7 +4846,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   bellsprout: {
-    learnset: {
+    inherit: true, learnset: {
     vinewhip: ["4L1"],
     growth: ["4L1"],
     wrap: ["4L1"],
@@ -4905,7 +4905,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   weepinbell: {
-    learnset: {
+    inherit: true, learnset: {
     vinewhip: ["4L1"],
     wrap: ["4L1"],
     growth: ["4L1"],
@@ -4964,7 +4964,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   victreebel: {
-    learnset: {
+    inherit: true, learnset: {
     vinewhip: ["4L1"],
     razorleaf: ["4L1"],
     sleeppowder: ["4L1"],
@@ -5033,7 +5033,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   tentacool: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     supersonic: ["4L1"],
     constrict: ["4L1"],
@@ -5095,7 +5095,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   tentacruel: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     supersonic: ["4L1"],
     constrict: ["4L1"],
@@ -5159,7 +5159,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   geodude: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     defensecurl: ["4L1"],
     mudsport: ["4L1"],
@@ -5227,7 +5227,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   graveler: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     rockthrow: ["4L1"],
     defensecurl: ["4L1"],
@@ -5295,7 +5295,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   golem: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     rockthrow: ["4L1"],
     defensecurl: ["4L1"],
@@ -5370,7 +5370,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ponyta: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     tailwhip: ["4L1"],
@@ -5423,7 +5423,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rapidash: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     growl: ["4L1"],
@@ -5484,7 +5484,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   slowpoke: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     curse: ["4L1"],
     yawn: ["4L1"],
@@ -5562,7 +5562,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   slowbro: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     curse: ["4L1"],
@@ -5658,7 +5658,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   magnemite: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     metalsound: ["4L1"],
     thundershock: ["4L1"],
@@ -5713,7 +5713,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   magneton: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     supersonic: ["4L1"],
     thundershock: ["4L1"],
@@ -5772,7 +5772,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   farfetchd: {
-    learnset: {
+    inherit: true, learnset: {
     peck: ["4L1"],
     sandattack: ["4L1"],
     leer: ["4L1"],
@@ -5841,7 +5841,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   doduo: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     peck: ["4L1"],
     pursuit: ["4L1"],
@@ -5896,7 +5896,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dodrio: {
-    learnset: {
+    inherit: true, learnset: {
     furyattack: ["4L1"],
     growl: ["4L1"],
     peck: ["4L1"],
@@ -5961,7 +5961,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   seel: {
-    learnset: {
+    inherit: true, learnset: {
     headbutt: ["4L1"],
     growl: ["4L1"],
     icywind: ["4L1"],
@@ -6021,7 +6021,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dewgong: {
-    learnset: {
+    inherit: true, learnset: {
     headbutt: ["4L1"],
     growl: ["4L1"],
     aurorabeam: ["4L1"],
@@ -6085,7 +6085,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   grimer: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     poisongas: ["4L1"],
     harden: ["4L1"],
@@ -6159,7 +6159,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   muk: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     harden: ["4L1"],
     poisongas: ["4L1"],
@@ -6241,7 +6241,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shellder: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     withdraw: ["4L1"],
     supersonic: ["4L1"],
@@ -6296,7 +6296,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cloyster: {
-    learnset: {
+    inherit: true, learnset: {
     supersonic: ["4L1"],
     aurorabeam: ["4L1"],
     withdraw: ["4L1"],
@@ -6359,7 +6359,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gastly: {
-    learnset: {
+    inherit: true, learnset: {
     hypnosis: ["4L1"],
     lick: ["4L1"],
     spite: ["4L1"],
@@ -6428,7 +6428,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   haunter: {
-    learnset: {
+    inherit: true, learnset: {
     hypnosis: ["4L1"],
     lick: ["4L1"],
     spite: ["4L1"],
@@ -6501,7 +6501,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gengar: {
-    learnset: {
+    inherit: true, learnset: {
     hypnosis: ["4L1"],
     lick: ["4L1"],
     spite: ["4L1"],
@@ -6593,7 +6593,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   onix: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     screech: ["4L1"],
     bind: ["4L1"],
@@ -6663,7 +6663,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   drowzee: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     hypnosis: ["4L1"],
     disable: ["4L1"],
@@ -6745,7 +6745,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   hypno: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     disable: ["4L1"],
     confusion: ["4L1"],
@@ -6830,7 +6830,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   krabby: {
-    learnset: {
+    inherit: true, learnset: {
     bubble: ["4L1"],
     leer: ["4L1"],
     visegrip: ["4L1"],
@@ -6901,7 +6901,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kingler: {
-    learnset: {
+    inherit: true, learnset: {
     visegrip: ["4L1"],
     leer: ["4L1"],
     bubble: ["4L1"],
@@ -6973,7 +6973,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   voltorb: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     charge: ["4L1"],
     screech: ["4L1"],
@@ -7021,7 +7021,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   electrode: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     sonicboom: ["4L1"],
     screech: ["4L1"],
@@ -7073,7 +7073,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   exeggcute: {
-    learnset: {
+    inherit: true, learnset: {
     hypnosis: ["4L1"],
     barrage: ["4L1"],
     uproar: ["4L1"],
@@ -7138,7 +7138,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   exeggutor: {
-    learnset: {
+    inherit: true, learnset: {
     confusion: ["4L1"],
     hypnosis: ["4L1"],
     barrage: ["4L1"],
@@ -7214,7 +7214,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cubone: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     tailwhip: ["4L1"],
     boneclub: ["4L1"],
@@ -7294,7 +7294,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   marowak: {
-    learnset: {
+    inherit: true, learnset: {
     headbutt: ["4L1"],
     tailwhip: ["4L1"],
     growl: ["4L1"],
@@ -7380,7 +7380,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   hitmonlee: {
-    learnset: {
+    inherit: true, learnset: {
     doublekick: ["4L1"],
     revenge: ["4L1"],
     meditate: ["4L1"],
@@ -7457,7 +7457,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   hitmonchan: {
-    learnset: {
+    inherit: true, learnset: {
     cometpunch: ["4L1"],
     revenge: ["4L1"],
     agility: ["4L1"],
@@ -7531,7 +7531,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lickitung: {
-    learnset: {
+    inherit: true, learnset: {
     lick: ["4L1"],
     supersonic: ["4L1"],
     defensecurl: ["4L1"],
@@ -7624,7 +7624,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   koffing: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     poisongas: ["4L1"],
     smog: ["4L1"],
@@ -7683,7 +7683,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   weezing: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     selfdestruct: ["4L1"],
     smog: ["4L1"],
@@ -7745,7 +7745,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rhyhorn: {
-    learnset: {
+    inherit: true, learnset: {
     hornattack: ["4L1"],
     tailwhip: ["4L1"],
     stomp: ["4L1"],
@@ -7827,7 +7827,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rhydon: {
-    learnset: {
+    inherit: true, learnset: {
     stomp: ["4L1"],
     hornattack: ["4L1"],
     furyattack: ["4L1"],
@@ -7932,7 +7932,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   chansey: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     growl: ["4L1"],
     tailwhip: ["4L1"],
@@ -8034,7 +8034,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   tangela: {
-    learnset: {
+    inherit: true, learnset: {
     constrict: ["4L1"],
     ingrain: ["4L1"],
     sleeppowder: ["4L1"],
@@ -8105,7 +8105,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kangaskhan: {
-    learnset: {
+    inherit: true, learnset: {
     cometpunch: ["4L1"],
     leer: ["4L1"],
     bite: ["4L1"],
@@ -8204,7 +8204,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   horsea: {
-    learnset: {
+    inherit: true, learnset: {
     bubble: ["4L1"],
     smokescreen: ["4L1"],
     leer: ["4L1"],
@@ -8264,7 +8264,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   seadra: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     watergun: ["4L1"],
     smokescreen: ["4L1"],
@@ -8326,7 +8326,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   goldeen: {
-    learnset: {
+    inherit: true, learnset: {
     tailwhip: ["4L1"],
     peck: ["4L1"],
     watersport: ["4L1"],
@@ -8382,7 +8382,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   seaking: {
-    learnset: {
+    inherit: true, learnset: {
     tailwhip: ["4L1"],
     supersonic: ["4L1"],
     peck: ["4L1"],
@@ -8440,7 +8440,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   staryu: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     harden: ["4L1"],
     watergun: ["4L1"],
@@ -8501,7 +8501,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   starmie: {
-    learnset: {
+    inherit: true, learnset: {
     watergun: ["4L1"],
     recover: ["4L1"],
     swift: ["4L1"],
@@ -8573,7 +8573,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mrmime: {
-    learnset: {
+    inherit: true, learnset: {
     barrier: ["4L1"],
     confusion: ["4L1"],
     substitute: ["4L1"],
@@ -8673,7 +8673,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   scyther: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     quickattack: ["4L1"],
     focusenergy: ["4L1"],
@@ -8740,7 +8740,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   jynx: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     lick: ["4L1"],
     lovelykiss: ["4L1"],
@@ -8833,7 +8833,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   electabuzz: {
-    learnset: {
+    inherit: true, learnset: {
     thunderpunch: ["4L1"],
     leer: ["4L1"],
     quickattack: ["4L1"],
@@ -8905,7 +8905,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   magmar: {
-    learnset: {
+    inherit: true, learnset: {
     firepunch: ["4L1"],
     leer: ["4L1"],
     ember: ["4L1"],
@@ -8975,7 +8975,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   pinsir: {
-    learnset: {
+    inherit: true, learnset: {
     visegrip: ["4L1"],
     focusenergy: ["4L1"],
     bind: ["4L1"],
@@ -9051,7 +9051,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   tauros: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     rage: ["4L1"],
@@ -9122,7 +9122,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   magikarp: {
-    learnset: {
+    inherit: true, learnset: {
     splash: ["4L1"],
     tackle: ["4L1"],
     flail: ["4L1"],
@@ -9130,7 +9130,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gyarados: {
-    learnset: {
+    inherit: true, learnset: {
     thrash: ["4L1"],
     bite: ["4L1"],
     dragonrage: ["4L1"],
@@ -9202,7 +9202,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lapras: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     sing: ["4L1"],
     watergun: ["4L1"],
@@ -9281,12 +9281,12 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ditto: {
-    learnset: {
+    inherit: true, learnset: {
     transform: ["4L1"],
     },
   },
   eevee: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     helpinghand: ["4L1"],
@@ -9340,7 +9340,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   vaporeon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     helpinghand: ["4L1"],
@@ -9418,7 +9418,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   jolteon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     helpinghand: ["4L1"],
@@ -9493,7 +9493,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   flareon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     helpinghand: ["4L1"],
@@ -9566,7 +9566,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   porygon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     conversion: ["4L1"],
     conversion2: ["4L1"],
@@ -9631,7 +9631,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   omanyte: {
-    learnset: {
+    inherit: true, learnset: {
     withdraw: ["4L1"],
     constrict: ["4L1"],
     bite: ["4L1"],
@@ -9698,7 +9698,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   omastar: {
-    learnset: {
+    inherit: true, learnset: {
     bite: ["4L1"],
     withdraw: ["4L1"],
     constrict: ["4L1"],
@@ -9772,7 +9772,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kabuto: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     harden: ["4L1"],
     absorb: ["4L1"],
@@ -9839,7 +9839,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kabutops: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     absorb: ["4L1"],
     harden: ["4L1"],
@@ -9925,7 +9925,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   aerodactyl: {
-    learnset: {
+    inherit: true, learnset: {
     wingattack: ["4L1"],
     agility: ["4L1"],
     bite: ["4L1"],
@@ -10005,7 +10005,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   snorlax: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     amnesia: ["4L1"],
     defensecurl: ["4L1"],
@@ -10100,7 +10100,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   articuno: {
-    learnset: {
+    inherit: true, learnset: {
     gust: ["4L1"],
     powdersnow: ["4L1"],
     mist: ["4L1"],
@@ -10161,7 +10161,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   zapdos: {
-    learnset: {
+    inherit: true, learnset: {
     peck: ["4L1"],
     thundershock: ["4L1"],
     thunderwave: ["4L1"],
@@ -10223,7 +10223,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   moltres: {
-    learnset: {
+    inherit: true, learnset: {
     wingattack: ["4L1"],
     ember: ["4L1"],
     firespin: ["4L1"],
@@ -10280,7 +10280,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dratini: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     leer: ["4L1"],
     thunderwave: ["4L1"],
@@ -10344,7 +10344,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dragonair: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     leer: ["4L1"],
     thunderwave: ["4L1"],
@@ -10407,7 +10407,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dragonite: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     leer: ["4L1"],
     thunderwave: ["4L1"],
@@ -10505,7 +10505,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mewtwo: {
-    learnset: {
+    inherit: true, learnset: {
     disable: ["4L1"],
     confusion: ["4L1"],
     barrier: ["4L1"],
@@ -10616,7 +10616,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mew: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     transform: ["4L1"],
     megapunch: ["4L1"],
@@ -10799,7 +10799,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   chikorita: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     razorleaf: ["4L1"],
@@ -10860,7 +10860,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   bayleef: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     razorleaf: ["4L1"],
@@ -10923,7 +10923,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   meganium: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     razorleaf: ["4L1"],
@@ -10993,7 +10993,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cyndaquil: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     leer: ["4L1"],
     smokescreen: ["4L1"],
@@ -11050,7 +11050,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   quilava: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     leer: ["4L1"],
     smokescreen: ["4L1"],
@@ -11112,7 +11112,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   typhlosion: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     leer: ["4L1"],
     ember: ["4L1"],
@@ -11194,7 +11194,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   totodile: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     rage: ["4L1"],
@@ -11273,7 +11273,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   croconaw: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     rage: ["4L1"],
@@ -11355,7 +11355,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   feraligatr: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     watergun: ["4L1"],
@@ -11447,7 +11447,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sentret: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     defensecurl: ["4L1"],
     quickattack: ["4L1"],
@@ -11528,7 +11528,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   furret: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     quickattack: ["4L1"],
     defensecurl: ["4L1"],
@@ -11617,7 +11617,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   hoothoot: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     foresight: ["4L1"],
@@ -11690,7 +11690,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   noctowl: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     peck: ["4L1"],
@@ -11763,7 +11763,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ledyba: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     supersonic: ["4L1"],
     cometpunch: ["4L1"],
@@ -11833,7 +11833,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ledian: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     supersonic: ["4L1"],
     cometpunch: ["4L1"],
@@ -11906,7 +11906,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   spinarak: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     stringshot: ["4L1"],
     scaryface: ["4L1"],
@@ -11961,7 +11961,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ariados: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     stringshot: ["4L1"],
     constrict: ["4L1"],
@@ -12019,7 +12019,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   crobat: {
-    learnset: {
+    inherit: true, learnset: {
     supersonic: ["4L1"],
     screech: ["4L1"],
     leechlife: ["4L1"],
@@ -12094,7 +12094,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   chinchou: {
-    learnset: {
+    inherit: true, learnset: {
     thunderwave: ["4L1"],
     bubble: ["4L1"],
     supersonic: ["4L1"],
@@ -12155,7 +12155,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lanturn: {
-    learnset: {
+    inherit: true, learnset: {
     supersonic: ["4L1"],
     thunderwave: ["4L1"],
     bubble: ["4L1"],
@@ -12222,7 +12222,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   pichu: {
-    learnset: {
+    inherit: true, learnset: {
     thundershock: ["4L1"],
     charm: ["4L1"],
     tailwhip: ["4L1"],
@@ -12287,7 +12287,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cleffa: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     charm: ["4L1"],
     encore: ["4L1"],
@@ -12369,7 +12369,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   igglybuff: {
-    learnset: {
+    inherit: true, learnset: {
     sing: ["4L1"],
     charm: ["4L1"],
     defensecurl: ["4L1"],
@@ -12444,7 +12444,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   togepi: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     charm: ["4L1"],
     metronome: ["4L1"],
@@ -12526,7 +12526,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   togetic: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     charm: ["4L1"],
     metronome: ["4L1"],
@@ -12626,7 +12626,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   natu: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     peck: ["4L1"],
     nightshade: ["4L1"],
@@ -12708,7 +12708,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   xatu: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     peck: ["4L1"],
     nightshade: ["4L1"],
@@ -12792,7 +12792,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mareep: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     thundershock: ["4L1"],
@@ -12846,7 +12846,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   flaaffy: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     thundershock: ["4L1"],
@@ -12911,7 +12911,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ampharos: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     thundershock: ["4L1"],
@@ -12982,7 +12982,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   bellossom: {
-    learnset: {
+    inherit: true, learnset: {
     absorb: ["4L1"],
     stunspore: ["4L1"],
     sweetscent: ["4L1"],
@@ -13045,7 +13045,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   marill: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     defensecurl: ["4L1"],
     tailwhip: ["4L1"],
@@ -13126,7 +13126,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   azumarill: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     watergun: ["4L1"],
@@ -13210,7 +13210,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sudowoodo: {
-    learnset: {
+    inherit: true, learnset: {
     rockthrow: ["4L1"],
     mimic: ["4L1"],
     flail: ["4L1"],
@@ -13287,7 +13287,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   politoed: {
-    learnset: {
+    inherit: true, learnset: {
     doubleslap: ["4L1"],
     watergun: ["4L1"],
     hypnosis: ["4L1"],
@@ -13369,7 +13369,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   hoppip: {
-    learnset: {
+    inherit: true, learnset: {
     splash: ["4L1"],
     tailwhip: ["4L1"],
     synthesis: ["4L1"],
@@ -13426,7 +13426,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   skiploom: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     splash: ["4L1"],
@@ -13483,7 +13483,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   jumpluff: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     splash: ["4L1"],
@@ -13542,7 +13542,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   aipom: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     tailwhip: ["4L1"],
     sandattack: ["4L1"],
@@ -13633,7 +13633,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sunkern: {
-    learnset: {
+    inherit: true, learnset: {
     absorb: ["4L1"],
     growth: ["4L1"],
     megadrain: ["4L1"],
@@ -13687,7 +13687,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sunflora: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     absorb: ["4L1"],
     growth: ["4L1"],
@@ -13745,7 +13745,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   yanma: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     foresight: ["4L1"],
     quickattack: ["4L1"],
@@ -13810,7 +13810,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wooper: {
-    learnset: {
+    inherit: true, learnset: {
     tailwhip: ["4L1"],
     watergun: ["4L1"],
     slam: ["4L1"],
@@ -13882,7 +13882,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   quagsire: {
-    learnset: {
+    inherit: true, learnset: {
     tailwhip: ["4L1"],
     watergun: ["4L1"],
     slam: ["4L1"],
@@ -13965,7 +13965,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   espeon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     helpinghand: ["4L1"],
@@ -14042,7 +14042,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   umbreon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     helpinghand: ["4L1"],
@@ -14120,7 +14120,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   murkrow: {
-    learnset: {
+    inherit: true, learnset: {
     peck: ["4L1"],
     astonish: ["4L1"],
     pursuit: ["4L1"],
@@ -14196,7 +14196,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   slowking: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     curse: ["4L1"],
     yawn: ["4L1"],
@@ -14294,7 +14294,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   misdreavus: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     psywave: ["4L1"],
     spite: ["4L1"],
@@ -14370,13 +14370,13 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   unown: {
-    learnset: {
+    inherit: true, learnset: {
     hiddenpower: ["4L1"],
     ancientpower: ["4L1"],
     },
   },
   wobbuffet: {
-    learnset: {
+    inherit: true, learnset: {
     counter: ["4L1"],
     destinybond: ["4L1"],
     safeguard: ["4L1"],
@@ -14388,7 +14388,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   girafarig: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     astonish: ["4L1"],
@@ -14472,7 +14472,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   pineco: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     protect: ["4L1"],
     selfdestruct: ["4L1"],
@@ -14535,7 +14535,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   forretress: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     selfdestruct: ["4L1"],
     protect: ["4L1"],
@@ -14607,7 +14607,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dunsparce: {
-    learnset: {
+    inherit: true, learnset: {
     rage: ["4L1"],
     defensecurl: ["4L1"],
     yawn: ["4L1"],
@@ -14687,7 +14687,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gligar: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     sandattack: ["4L1"],
     harden: ["4L1"],
@@ -14768,7 +14768,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   steelix: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     screech: ["4L1"],
     bind: ["4L1"],
@@ -14847,7 +14847,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   snubbull: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     scaryface: ["4L1"],
     tailwhip: ["4L1"],
@@ -14931,7 +14931,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   granbull: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     scaryface: ["4L1"],
     tailwhip: ["4L1"],
@@ -15024,7 +15024,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   qwilfish: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     poisonsting: ["4L1"],
     spikes: ["4L1"],
@@ -15097,7 +15097,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   scizor: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     quickattack: ["4L1"],
     focusenergy: ["4L1"],
@@ -15173,7 +15173,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shuckle: {
-    learnset: {
+    inherit: true, learnset: {
     withdraw: ["4L1"],
     constrict: ["4L1"],
     wrap: ["4L1"],
@@ -15233,7 +15233,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   heracross: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     leer: ["4L1"],
     hornattack: ["4L1"],
@@ -15304,7 +15304,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sneasel: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     taunt: ["4L1"],
@@ -15393,7 +15393,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   teddiursa: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     lick: ["4L1"],
@@ -15477,7 +15477,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ursaring: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     lick: ["4L1"],
@@ -15571,7 +15571,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   slugma: {
-    learnset: {
+    inherit: true, learnset: {
     smog: ["4L1"],
     yawn: ["4L1"],
     ember: ["4L1"],
@@ -15630,7 +15630,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   magcargo: {
-    learnset: {
+    inherit: true, learnset: {
     ember: ["4L1"],
     rockthrow: ["4L1"],
     smog: ["4L1"],
@@ -15700,7 +15700,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   swinub: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     odorsleuth: ["4L1"],
     powdersnow: ["4L1"],
@@ -15762,7 +15762,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   piloswine: {
-    learnset: {
+    inherit: true, learnset: {
     hornattack: ["4L1"],
     powdersnow: ["4L1"],
     endure: ["4L1"],
@@ -15832,7 +15832,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   corsola: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     harden: ["4L1"],
     bubble: ["4L1"],
@@ -15914,7 +15914,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   remoraid: {
-    learnset: {
+    inherit: true, learnset: {
     watergun: ["4L1"],
     lockon: ["4L1"],
     psybeam: ["4L1"],
@@ -15977,7 +15977,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   octillery: {
-    learnset: {
+    inherit: true, learnset: {
     watergun: ["4L1"],
     constrict: ["4L1"],
     psybeam: ["4L1"],
@@ -16050,7 +16050,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   delibird: {
-    learnset: {
+    inherit: true, learnset: {
     present: ["4L1"],
     aurorabeam: ["4L1"],
     quickattack: ["4L1"],
@@ -16116,7 +16116,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mantine: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     bubble: ["4L1"],
     supersonic: ["4L1"],
@@ -16190,7 +16190,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   skarmory: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     peck: ["4L1"],
     sandattack: ["4L1"],
@@ -16265,7 +16265,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   houndour: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     ember: ["4L1"],
     howl: ["4L1"],
@@ -16338,7 +16338,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   houndoom: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     ember: ["4L1"],
     howl: ["4L1"],
@@ -16414,7 +16414,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kingdra: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     watergun: ["4L1"],
     smokescreen: ["4L1"],
@@ -16480,7 +16480,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   phanpy: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     odorsleuth: ["4L1"],
@@ -16538,7 +16538,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   donphan: {
-    learnset: {
+    inherit: true, learnset: {
     hornattack: ["4L1"],
     growl: ["4L1"],
     odorsleuth: ["4L1"],
@@ -16613,7 +16613,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   porygon2: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     conversion: ["4L1"],
     conversion2: ["4L1"],
@@ -16680,7 +16680,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   stantler: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     leer: ["4L1"],
     astonish: ["4L1"],
@@ -16757,12 +16757,12 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   smeargle: {
-    learnset: {
+    inherit: true, learnset: {
     sketch: ["4L1"],
     },
   },
   tyrogue: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     highjumpkick: ["4L1"],
     mindreader: ["4L1"],
@@ -16814,7 +16814,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   hitmontop: {
-    learnset: {
+    inherit: true, learnset: {
     rollingkick: ["4L1"],
     revenge: ["4L1"],
     focusenergy: ["4L1"],
@@ -16885,7 +16885,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   smoochum: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     lick: ["4L1"],
     sweetkiss: ["4L1"],
@@ -16964,7 +16964,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   elekid: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     quickattack: ["4L1"],
     thunderpunch: ["4L1"],
@@ -17030,7 +17030,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   magby: {
-    learnset: {
+    inherit: true, learnset: {
     ember: ["4L1"],
     leer: ["4L1"],
     smog: ["4L1"],
@@ -17094,7 +17094,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   miltank: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     defensecurl: ["4L1"],
@@ -17179,7 +17179,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   blissey: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     growl: ["4L1"],
     tailwhip: ["4L1"],
@@ -17284,7 +17284,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   raikou: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     bite: ["4L1"],
     thundershock: ["4L1"],
@@ -17346,7 +17346,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   entei: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     bite: ["4L1"],
     ember: ["4L1"],
@@ -17409,7 +17409,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   suicune: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     bite: ["4L1"],
     bubblebeam: ["4L1"],
@@ -17475,7 +17475,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   larvitar: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     bite: ["4L1"],
     sandstorm: ["4L1"],
@@ -17538,7 +17538,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   pupitar: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     bite: ["4L1"],
     screech: ["4L1"],
@@ -17601,7 +17601,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   tyranitar: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     bite: ["4L1"],
     screech: ["4L1"],
@@ -17705,7 +17705,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lugia: {
-    learnset: {
+    inherit: true, learnset: {
     whirlwind: ["4L1"],
     safeguard: ["4L1"],
     gust: ["4L1"],
@@ -17798,7 +17798,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   hooh: {
-    learnset: {
+    inherit: true, learnset: {
     whirlwind: ["4L1"],
     safeguard: ["4L1"],
     gust: ["4L1"],
@@ -17877,7 +17877,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   celebi: {
-    learnset: {
+    inherit: true, learnset: {
     leechseed: ["4L1"],
     confusion: ["4L1"],
     recover: ["4L1"],
@@ -17958,7 +17958,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   treecko: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     leer: ["4L1"],
     absorb: ["4L1"],
@@ -18039,7 +18039,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   grovyle: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     leer: ["4L1"],
     absorb: ["4L1"],
@@ -18123,7 +18123,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sceptile: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     leer: ["4L1"],
     absorb: ["4L1"],
@@ -18217,7 +18217,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   torchic: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     growl: ["4L1"],
     focusenergy: ["4L1"],
@@ -18284,7 +18284,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   combusken: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     growl: ["4L1"],
     ember: ["4L1"],
@@ -18366,7 +18366,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   blaziken: {
-    learnset: {
+    inherit: true, learnset: {
     firepunch: ["4L1"],
     scratch: ["4L1"],
     growl: ["4L1"],
@@ -18461,7 +18461,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mudkip: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     mudslap: ["4L1"],
@@ -18530,7 +18530,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   marshtomp: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     watergun: ["4L1"],
@@ -18610,7 +18610,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   swampert: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     watergun: ["4L1"],
@@ -18701,7 +18701,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   poochyena: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     howl: ["4L1"],
     sandattack: ["4L1"],
@@ -18766,7 +18766,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mightyena: {
-    learnset: {
+    inherit: true, learnset: {
     sandattack: ["4L1"],
     tackle: ["4L1"],
     bite: ["4L1"],
@@ -18835,7 +18835,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   zigzagoon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     tailwhip: ["4L1"],
@@ -18905,7 +18905,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   linoone: {
-    learnset: {
+    inherit: true, learnset: {
     headbutt: ["4L1"],
     tackle: ["4L1"],
     tailwhip: ["4L1"],
@@ -18984,7 +18984,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wurmple: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     stringshot: ["4L1"],
     poisonsting: ["4L1"],
@@ -18993,7 +18993,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   silcoon: {
-    learnset: {
+    inherit: true, learnset: {
     harden: ["4L1"],
     irondefense: ["4L1"],
     stringshot: ["4L1"],
@@ -19004,7 +19004,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   beautifly: {
-    learnset: {
+    inherit: true, learnset: {
     absorb: ["4L1"],
     gust: ["4L1"],
     stunspore: ["4L1"],
@@ -19062,7 +19062,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cascoon: {
-    learnset: {
+    inherit: true, learnset: {
     harden: ["4L1"],
     irondefense: ["4L1"],
     stringshot: ["4L1"],
@@ -19073,7 +19073,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dustox: {
-    learnset: {
+    inherit: true, learnset: {
     confusion: ["4L1"],
     gust: ["4L1"],
     protect: ["4L1"],
@@ -19131,7 +19131,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lotad: {
-    learnset: {
+    inherit: true, learnset: {
     astonish: ["4L1"],
     growl: ["4L1"],
     absorb: ["4L1"],
@@ -19191,7 +19191,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lombre: {
-    learnset: {
+    inherit: true, learnset: {
     astonish: ["4L1"],
     growl: ["4L1"],
     absorb: ["4L1"],
@@ -19267,7 +19267,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ludicolo: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     absorb: ["4L1"],
     naturepower: ["4L1"],
@@ -19352,7 +19352,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   seedot: {
-    learnset: {
+    inherit: true, learnset: {
     bide: ["4L1"],
     harden: ["4L1"],
     growth: ["4L1"],
@@ -19409,7 +19409,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   nuzleaf: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     harden: ["4L1"],
     growth: ["4L1"],
@@ -19489,7 +19489,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shiftry: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     growth: ["4L1"],
     harden: ["4L1"],
@@ -19585,7 +19585,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   taillow: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     peck: ["4L1"],
     focusenergy: ["4L1"],
@@ -19642,7 +19642,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   swellow: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     peck: ["4L1"],
     quickattack: ["4L1"],
@@ -19702,7 +19702,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wingull: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     watergun: ["4L1"],
     supersonic: ["4L1"],
@@ -19762,7 +19762,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   pelipper: {
-    learnset: {
+    inherit: true, learnset: {
     wingattack: ["4L1"],
     growl: ["4L1"],
     watergun: ["4L1"],
@@ -19834,7 +19834,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ralts: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     confusion: ["4L1"],
     doubleteam: ["4L1"],
@@ -19916,7 +19916,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kirlia: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     confusion: ["4L1"],
     teleport: ["4L1"],
@@ -19998,7 +19998,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gardevoir: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     confusion: ["4L1"],
     teleport: ["4L1"],
@@ -20087,7 +20087,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   surskit: {
-    learnset: {
+    inherit: true, learnset: {
     bubble: ["4L1"],
     quickattack: ["4L1"],
     sweetscent: ["4L1"],
@@ -20141,7 +20141,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   masquerain: {
-    learnset: {
+    inherit: true, learnset: {
     quickattack: ["4L1"],
     bubble: ["4L1"],
     sweetscent: ["4L1"],
@@ -20214,7 +20214,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shroomish: {
-    learnset: {
+    inherit: true, learnset: {
     absorb: ["4L1"],
     tackle: ["4L1"],
     stunspore: ["4L1"],
@@ -20267,7 +20267,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   breloom: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     absorb: ["4L1"],
     leechseed: ["4L1"],
@@ -20349,7 +20349,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   slakoth: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     yawn: ["4L1"],
     encore: ["4L1"],
@@ -20424,7 +20424,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   vigoroth: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     focusenergy: ["4L1"],
     encore: ["4L1"],
@@ -20509,7 +20509,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   slaking: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     encore: ["4L1"],
     yawn: ["4L1"],
@@ -20598,7 +20598,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   nincada: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     harden: ["4L1"],
     leechlife: ["4L1"],
@@ -20650,7 +20650,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ninjask: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     sandattack: ["4L1"],
     harden: ["4L1"],
@@ -20717,7 +20717,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shedinja: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     harden: ["4L1"],
     leechlife: ["4L1"],
@@ -20779,7 +20779,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   whismur: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     uproar: ["4L1"],
     astonish: ["4L1"],
@@ -20844,7 +20844,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   loudred: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     uproar: ["4L1"],
     astonish: ["4L1"],
@@ -20920,7 +20920,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   exploud: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     uproar: ["4L1"],
     astonish: ["4L1"],
@@ -21009,7 +21009,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   makuhita: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     focusenergy: ["4L1"],
     sandattack: ["4L1"],
@@ -21088,7 +21088,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   hariyama: {
-    learnset: {
+    inherit: true, learnset: {
     sandattack: ["4L1"],
     tackle: ["4L1"],
     focusenergy: ["4L1"],
@@ -21173,7 +21173,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   azurill: {
-    learnset: {
+    inherit: true, learnset: {
     splash: ["4L1"],
     charm: ["4L1"],
     tailwhip: ["4L1"],
@@ -21226,7 +21226,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   nosepass: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     harden: ["4L1"],
     rockthrow: ["4L1"],
@@ -21298,7 +21298,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   skitty: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     tailwhip: ["4L1"],
@@ -21374,7 +21374,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   delcatty: {
-    learnset: {
+    inherit: true, learnset: {
     doubleslap: ["4L1"],
     growl: ["4L1"],
     sing: ["4L1"],
@@ -21454,7 +21454,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sableye: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     foresight: ["4L1"],
@@ -21552,7 +21552,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mawile: {
-    learnset: {
+    inherit: true, learnset: {
     astonish: ["4L1"],
     faketears: ["4L1"],
     bite: ["4L1"],
@@ -21644,7 +21644,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   aron: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     harden: ["4L1"],
     mudslap: ["4L1"],
@@ -21712,7 +21712,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lairon: {
-    learnset: {
+    inherit: true, learnset: {
     headbutt: ["4L1"],
     tackle: ["4L1"],
     harden: ["4L1"],
@@ -21781,7 +21781,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   aggron: {
-    learnset: {
+    inherit: true, learnset: {
     headbutt: ["4L1"],
     tackle: ["4L1"],
     harden: ["4L1"],
@@ -21887,7 +21887,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   meditite: {
-    learnset: {
+    inherit: true, learnset: {
     bide: ["4L1"],
     meditate: ["4L1"],
     confusion: ["4L1"],
@@ -21974,7 +21974,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   medicham: {
-    learnset: {
+    inherit: true, learnset: {
     firepunch: ["4L1"],
     icepunch: ["4L1"],
     thunderpunch: ["4L1"],
@@ -22064,7 +22064,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   electrike: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     thunderwave: ["4L1"],
     leer: ["4L1"],
@@ -22122,7 +22122,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   manectric: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     leer: ["4L1"],
     thunderwave: ["4L1"],
@@ -22185,7 +22185,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   plusle: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     thunderwave: ["4L1"],
     quickattack: ["4L1"],
@@ -22251,7 +22251,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   minun: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     thunderwave: ["4L1"],
     quickattack: ["4L1"],
@@ -22319,7 +22319,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   volbeat: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     confuseray: ["4L1"],
     doubleteam: ["4L1"],
@@ -22393,7 +22393,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   illumise: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     sweetscent: ["4L1"],
     charm: ["4L1"],
@@ -22469,7 +22469,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   roselia: {
-    learnset: {
+    inherit: true, learnset: {
     absorb: ["4L1"],
     growth: ["4L1"],
     poisonsting: ["4L1"],
@@ -22538,7 +22538,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gulpin: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     yawn: ["4L1"],
     poisongas: ["4L1"],
@@ -22610,7 +22610,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   swalot: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     sludge: ["4L1"],
     poisongas: ["4L1"],
@@ -22683,7 +22683,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   carvanha: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     bite: ["4L1"],
     rage: ["4L1"],
@@ -22748,7 +22748,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sharpedo: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     bite: ["4L1"],
     rage: ["4L1"],
@@ -22824,7 +22824,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wailmer: {
-    learnset: {
+    inherit: true, learnset: {
     splash: ["4L1"],
     growl: ["4L1"],
     watergun: ["4L1"],
@@ -22884,7 +22884,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wailord: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     watergun: ["4L1"],
     splash: ["4L1"],
@@ -22947,7 +22947,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   numel: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     ember: ["4L1"],
@@ -23008,7 +23008,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   camerupt: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     ember: ["4L1"],
@@ -23081,7 +23081,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   torkoal: {
-    learnset: {
+    inherit: true, learnset: {
     ember: ["4L1"],
     smog: ["4L1"],
     curse: ["4L1"],
@@ -23145,7 +23145,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   spoink: {
-    learnset: {
+    inherit: true, learnset: {
     splash: ["4L1"],
     psywave: ["4L1"],
     odorsleuth: ["4L1"],
@@ -23212,7 +23212,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   grumpig: {
-    learnset: {
+    inherit: true, learnset: {
     psybeam: ["4L1"],
     psywave: ["4L1"],
     splash: ["4L1"],
@@ -23298,7 +23298,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   spinda: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     uproar: ["4L1"],
     feintattack: ["4L1"],
@@ -23390,7 +23390,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   trapinch: {
-    learnset: {
+    inherit: true, learnset: {
     bite: ["4L1"],
     sandattack: ["4L1"],
     feintattack: ["4L1"],
@@ -23444,7 +23444,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   vibrava: {
-    learnset: {
+    inherit: true, learnset: {
     sandattack: ["4L1"],
     bite: ["4L1"],
     feintattack: ["4L1"],
@@ -23517,7 +23517,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   flygon: {
-    learnset: {
+    inherit: true, learnset: {
     sandattack: ["4L1"],
     bite: ["4L1"],
     feintattack: ["4L1"],
@@ -23597,7 +23597,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cacnea: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     leer: ["4L1"],
     absorb: ["4L1"],
@@ -23672,7 +23672,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cacturne: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     leer: ["4L1"],
     absorb: ["4L1"],
@@ -23755,7 +23755,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   swablu: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     peck: ["4L1"],
     astonish: ["4L1"],
@@ -23822,7 +23822,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   altaria: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     sing: ["4L1"],
     peck: ["4L1"],
@@ -23900,7 +23900,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   zangoose: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     quickattack: ["4L1"],
@@ -23998,7 +23998,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   seviper: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     lick: ["4L1"],
     bite: ["4L1"],
@@ -24067,7 +24067,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lunatone: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     harden: ["4L1"],
     confusion: ["4L1"],
@@ -24144,7 +24144,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   solrock: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     harden: ["4L1"],
     confusion: ["4L1"],
@@ -24226,7 +24226,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   barboach: {
-    learnset: {
+    inherit: true, learnset: {
     mudslap: ["4L1"],
     mudsport: ["4L1"],
     watersport: ["4L1"],
@@ -24284,7 +24284,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   whiscash: {
-    learnset: {
+    inherit: true, learnset: {
     mudslap: ["4L1"],
     mudsport: ["4L1"],
     tickle: ["4L1"],
@@ -24347,7 +24347,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   corphish: {
-    learnset: {
+    inherit: true, learnset: {
     bubble: ["4L1"],
     harden: ["4L1"],
     visegrip: ["4L1"],
@@ -24417,7 +24417,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   crawdaunt: {
-    learnset: {
+    inherit: true, learnset: {
     visegrip: ["4L1"],
     leer: ["4L1"],
     harden: ["4L1"],
@@ -24492,7 +24492,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   baltoy: {
-    learnset: {
+    inherit: true, learnset: {
     confusion: ["4L1"],
     harden: ["4L1"],
     rapidspin: ["4L1"],
@@ -24560,7 +24560,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   claydol: {
-    learnset: {
+    inherit: true, learnset: {
     confusion: ["4L1"],
     teleport: ["4L1"],
     harden: ["4L1"],
@@ -24632,7 +24632,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lileep: {
-    learnset: {
+    inherit: true, learnset: {
     astonish: ["4L1"],
     constrict: ["4L1"],
     acid: ["4L1"],
@@ -24695,7 +24695,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cradily: {
-    learnset: {
+    inherit: true, learnset: {
     acid: ["4L1"],
     constrict: ["4L1"],
     ingrain: ["4L1"],
@@ -24766,7 +24766,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   anorith: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     harden: ["4L1"],
     mudsport: ["4L1"],
@@ -24826,7 +24826,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   armaldo: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     watergun: ["4L1"],
     harden: ["4L1"],
@@ -24899,7 +24899,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   feebas: {
-    learnset: {
+    inherit: true, learnset: {
     splash: ["4L1"],
     tackle: ["4L1"],
     flail: ["4L1"],
@@ -24945,7 +24945,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   milotic: {
-    learnset: {
+    inherit: true, learnset: {
     watergun: ["4L1"],
     wrap: ["4L1"],
     watersport: ["4L1"],
@@ -25011,7 +25011,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   castform: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     ember: ["4L1"],
     watergun: ["4L1"],
@@ -25074,7 +25074,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kecleon: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     tailwhip: ["4L1"],
     lick: ["4L1"],
@@ -25178,7 +25178,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shuppet: {
-    learnset: {
+    inherit: true, learnset: {
     knockoff: ["4L1"],
     screech: ["4L1"],
     nightshade: ["4L1"],
@@ -25249,7 +25249,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   banette: {
-    learnset: {
+    inherit: true, learnset: {
     nightshade: ["4L1"],
     screech: ["4L1"],
     curse: ["4L1"],
@@ -25328,7 +25328,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   duskull: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     nightshade: ["4L1"],
     disable: ["4L1"],
@@ -25400,7 +25400,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dusclops: {
-    learnset: {
+    inherit: true, learnset: {
     bind: ["4L1"],
     leer: ["4L1"],
     disable: ["4L1"],
@@ -25494,7 +25494,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   tropius: {
-    learnset: {
+    inherit: true, learnset: {
     gust: ["4L1"],
     leer: ["4L1"],
     growth: ["4L1"],
@@ -25567,7 +25567,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   chimecho: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     growl: ["4L1"],
     astonish: ["4L1"],
@@ -25642,7 +25642,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   absol: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     taunt: ["4L1"],
@@ -25746,7 +25746,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wynaut: {
-    learnset: {
+    inherit: true, learnset: {
     splash: ["4L1"],
     charm: ["4L1"],
     encore: ["4L1"],
@@ -25757,7 +25757,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   snorunt: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     powdersnow: ["4L1"],
     doubleteam: ["4L1"],
@@ -25807,7 +25807,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   glalie: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     bite: ["4L1"],
     doubleteam: ["4L1"],
@@ -25872,7 +25872,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   spheal: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     watergun: ["4L1"],
     powdersnow: ["4L1"],
@@ -25937,7 +25937,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   sealeo: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     watergun: ["4L1"],
     powdersnow: ["4L1"],
@@ -26002,7 +26002,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   walrein: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     watergun: ["4L1"],
     powdersnow: ["4L1"],
@@ -26075,7 +26075,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   clamperl: {
-    learnset: {
+    inherit: true, learnset: {
     watergun: ["4L1"],
     clamp: ["4L1"],
     whirlpool: ["4L1"],
@@ -26120,7 +26120,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   huntail: {
-    learnset: {
+    inherit: true, learnset: {
     whirlpool: ["4L1"],
     bite: ["4L1"],
     screech: ["4L1"],
@@ -26183,7 +26183,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gorebyss: {
-    learnset: {
+    inherit: true, learnset: {
     whirlpool: ["4L1"],
     confusion: ["4L1"],
     agility: ["4L1"],
@@ -26244,7 +26244,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   relicanth: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     harden: ["4L1"],
     watergun: ["4L1"],
@@ -26311,7 +26311,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   luvdisc: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     charm: ["4L1"],
     watergun: ["4L1"],
@@ -26363,7 +26363,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   bagon: {
-    learnset: {
+    inherit: true, learnset: {
     rage: ["4L1"],
     bite: ["4L1"],
     leer: ["4L1"],
@@ -26423,7 +26423,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shelgon: {
-    learnset: {
+    inherit: true, learnset: {
     headbutt: ["4L1"],
     leer: ["4L1"],
     bite: ["4L1"],
@@ -26486,7 +26486,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   salamence: {
-    learnset: {
+    inherit: true, learnset: {
     headbutt: ["4L1"],
     leer: ["4L1"],
     bite: ["4L1"],
@@ -26566,7 +26566,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   beldum: {
-    learnset: {
+    inherit: true, learnset: {
     takedown: ["4L1"],
     irondefense: ["4L1"],
     zenheadbutt: ["4L1"],
@@ -26575,7 +26575,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   metang: {
-    learnset: {
+    inherit: true, learnset: {
     takedown: ["4L1"],
     confusion: ["4L1"],
     metalclaw: ["4L1"],
@@ -26648,7 +26648,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   metagross: {
-    learnset: {
+    inherit: true, learnset: {
     takedown: ["4L1"],
     confusion: ["4L1"],
     scaryface: ["4L1"],
@@ -26724,7 +26724,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   regirock: {
-    learnset: {
+    inherit: true, learnset: {
     explosion: ["4L1"],
     rockthrow: ["4L1"],
     curse: ["4L1"],
@@ -26799,7 +26799,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   regice: {
-    learnset: {
+    inherit: true, learnset: {
     explosion: ["4L1"],
     icywind: ["4L1"],
     curse: ["4L1"],
@@ -26873,7 +26873,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   registeel: {
-    learnset: {
+    inherit: true, learnset: {
     explosion: ["4L1"],
     metalclaw: ["4L1"],
     curse: ["4L1"],
@@ -26949,7 +26949,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   latias: {
-    learnset: {
+    inherit: true, learnset: {
     psywave: ["4L1"],
     wish: ["4L1"],
     helpinghand: ["4L1"],
@@ -27037,7 +27037,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   latios: {
-    learnset: {
+    inherit: true, learnset: {
     psywave: ["4L1"],
     memento: ["4L1"],
     helpinghand: ["4L1"],
@@ -27122,7 +27122,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kyogre: {
-    learnset: {
+    inherit: true, learnset: {
     waterpulse: ["4L1"],
     scaryface: ["4L1"],
     ancientpower: ["4L1"],
@@ -27188,7 +27188,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   groudon: {
-    learnset: {
+    inherit: true, learnset: {
     mudshot: ["4L1"],
     scaryface: ["4L1"],
     ancientpower: ["4L1"],
@@ -27271,7 +27271,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rayquaza: {
-    learnset: {
+    inherit: true, learnset: {
     twister: ["4L1"],
     scaryface: ["4L1"],
     ancientpower: ["4L1"],
@@ -27355,7 +27355,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   jirachi: {
-    learnset: {
+    inherit: true, learnset: {
     confusion: ["4L1"],
     wish: ["4L1"],
     rest: ["4L1"],
@@ -27437,7 +27437,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   deoxys: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     leer: ["4L1"],
     nightshade: ["4L1"],
@@ -27529,7 +27529,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   turtwig: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     withdraw: ["4L1"],
     absorb: ["4L1"],
@@ -27594,7 +27594,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   grotle: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     withdraw: ["4L1"],
     absorb: ["4L1"],
@@ -27659,7 +27659,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   torterra: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     absorb: ["4L1"],
     razorleaf: ["4L1"],
@@ -27738,7 +27738,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   chimchar: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     ember: ["4L1"],
@@ -27811,7 +27811,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   monferno: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     ember: ["4L1"],
@@ -27892,7 +27892,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   infernape: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     ember: ["4L1"],
@@ -27982,7 +27982,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   piplup: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     growl: ["4L1"],
     bubble: ["4L1"],
@@ -28046,7 +28046,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   prinplup: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     bubble: ["4L1"],
@@ -28115,7 +28115,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   empoleon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     bubble: ["4L1"],
@@ -28199,7 +28199,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   starly: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     quickattack: ["4L1"],
@@ -28253,7 +28253,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   staravia: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     quickattack: ["4L1"],
@@ -28307,7 +28307,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   staraptor: {
-    learnset: {
+    inherit: true, learnset: {
     wingattack: ["4L1"],
     tackle: ["4L1"],
     growl: ["4L1"],
@@ -28365,7 +28365,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   bidoof: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     defensecurl: ["4L1"],
@@ -28429,7 +28429,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   bibarel: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growl: ["4L1"],
     defensecurl: ["4L1"],
@@ -28507,7 +28507,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kricketot: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     bide: ["4L1"],
     bugbite: ["4L1"],
@@ -28519,7 +28519,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   kricketune: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     bide: ["4L1"],
     furycutter: ["4L1"],
@@ -28573,7 +28573,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shinx: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     leer: ["4L1"],
     charge: ["4L1"],
@@ -28631,7 +28631,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   luxio: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     leer: ["4L1"],
     charge: ["4L1"],
@@ -28685,7 +28685,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   luxray: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     leer: ["4L1"],
     charge: ["4L1"],
@@ -28742,7 +28742,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   budew: {
-    learnset: {
+    inherit: true, learnset: {
     absorb: ["4L1"],
     growth: ["4L1"],
     watersport: ["4L1"],
@@ -28795,7 +28795,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   roserade: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     megadrain: ["4L1"],
     sweetscent: ["4L1"],
@@ -28867,7 +28867,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cranidos: {
-    learnset: {
+    inherit: true, learnset: {
     headbutt: ["4L1"],
     leer: ["4L1"],
     focusenergy: ["4L1"],
@@ -28944,7 +28944,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rampardos: {
-    learnset: {
+    inherit: true, learnset: {
     headbutt: ["4L1"],
     leer: ["4L1"],
     focusenergy: ["4L1"],
@@ -29031,7 +29031,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shieldon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     protect: ["4L1"],
     taunt: ["4L1"],
@@ -29098,7 +29098,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   bastiodon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     protect: ["4L1"],
     taunt: ["4L1"],
@@ -29170,7 +29170,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   burmy: {
-    learnset: {
+    inherit: true, learnset: {
     protect: ["4L1"],
     tackle: ["4L1"],
     hiddenpower: ["4L1"],
@@ -29180,7 +29180,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wormadam: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     protect: ["4L1"],
     hiddenpower: ["4L1"],
@@ -29238,7 +29238,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mothim: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     protect: ["4L1"],
     hiddenpower: ["4L1"],
@@ -29300,7 +29300,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   combee: {
-    learnset: {
+    inherit: true, learnset: {
     gust: ["4L1"],
     sweetscent: ["4L1"],
     bugbite: ["4L1"],
@@ -29315,7 +29315,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   vespiquen: {
-    learnset: {
+    inherit: true, learnset: {
     gust: ["4L1"],
     sweetscent: ["4L1"],
     poisonsting: ["4L1"],
@@ -29378,7 +29378,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   pachirisu: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     bide: ["4L1"],
     quickattack: ["4L1"],
@@ -29441,7 +29441,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   buizel: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     sonicboom: ["4L1"],
     watersport: ["4L1"],
@@ -29505,7 +29505,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   floatzel: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     sonicboom: ["4L1"],
     quickattack: ["4L1"],
@@ -29576,7 +29576,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cherubi: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growth: ["4L1"],
     leechseed: ["4L1"],
@@ -29625,7 +29625,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cherrim: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     growth: ["4L1"],
     leechseed: ["4L1"],
@@ -29676,7 +29676,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shellos: {
-    learnset: {
+    inherit: true, learnset: {
     mudslap: ["4L1"],
     mudsport: ["4L1"],
     harden: ["4L1"],
@@ -29731,7 +29731,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gastrodon: {
-    learnset: {
+    inherit: true, learnset: {
     harden: ["4L1"],
     mudslap: ["4L1"],
     mudsport: ["4L1"],
@@ -29800,7 +29800,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   ambipom: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     sandattack: ["4L1"],
     tailwhip: ["4L1"],
@@ -29893,7 +29893,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   drifloon: {
-    learnset: {
+    inherit: true, learnset: {
     minimize: ["4L1"],
     constrict: ["4L1"],
     astonish: ["4L1"],
@@ -29968,7 +29968,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   drifblim: {
-    learnset: {
+    inherit: true, learnset: {
     gust: ["4L1"],
     minimize: ["4L1"],
     constrict: ["4L1"],
@@ -30045,7 +30045,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   buneary: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     defensecurl: ["4L1"],
     splash: ["4L1"],
@@ -30122,7 +30122,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lopunny: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     defensecurl: ["4L1"],
     splash: ["4L1"],
@@ -30203,7 +30203,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mismagius: {
-    learnset: {
+    inherit: true, learnset: {
     growl: ["4L1"],
     psywave: ["4L1"],
     spite: ["4L1"],
@@ -30284,7 +30284,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   honchkrow: {
-    learnset: {
+    inherit: true, learnset: {
     wingattack: ["4L1"],
     haze: ["4L1"],
     pursuit: ["4L1"],
@@ -30364,7 +30364,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   glameow: {
-    learnset: {
+    inherit: true, learnset: {
     fakeout: ["4L1"],
     scratch: ["4L1"],
     growl: ["4L1"],
@@ -30431,7 +30431,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   purugly: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     growl: ["4L1"],
     fakeout: ["4L1"],
@@ -30502,7 +30502,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   chingling: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     growl: ["4L1"],
     astonish: ["4L1"],
@@ -30567,7 +30567,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   stunky: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     focusenergy: ["4L1"],
     poisongas: ["4L1"],
@@ -30635,7 +30635,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   skuntank: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     focusenergy: ["4L1"],
     poisongas: ["4L1"],
@@ -30705,7 +30705,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   bronzor: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     confusion: ["4L1"],
     hypnosis: ["4L1"],
@@ -30765,7 +30765,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   bronzong: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     confusion: ["4L1"],
     hypnosis: ["4L1"],
@@ -30833,7 +30833,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   bonsly: {
-    learnset: {
+    inherit: true, learnset: {
     faketears: ["4L1"],
     copycat: ["4L1"],
     flail: ["4L1"],
@@ -30887,7 +30887,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mimejr: {
-    learnset: {
+    inherit: true, learnset: {
     confusion: ["4L1"],
     barrier: ["4L1"],
     tickle: ["4L1"],
@@ -30964,7 +30964,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   happiny: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     charm: ["4L1"],
     copycat: ["4L1"],
@@ -31026,7 +31026,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   chatot: {
-    learnset: {
+    inherit: true, learnset: {
     peck: ["4L1"],
     growl: ["4L1"],
     mirrormove: ["4L1"],
@@ -31087,7 +31087,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   spiritomb: {
-    learnset: {
+    inherit: true, learnset: {
     confuseray: ["4L1"],
     curse: ["4L1"],
     spite: ["4L1"],
@@ -31154,7 +31154,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gible: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     sandattack: ["4L1"],
     dragonrage: ["4L1"],
@@ -31219,7 +31219,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gabite: {
-    learnset: {
+    inherit: true, learnset: {
     sandattack: ["4L1"],
     tackle: ["4L1"],
     dragonrage: ["4L1"],
@@ -31284,7 +31284,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   garchomp: {
-    learnset: {
+    inherit: true, learnset: {
     sandattack: ["4L1"],
     tackle: ["4L1"],
     dragonrage: ["4L1"],
@@ -31361,7 +31361,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   munchlax: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     metronome: ["4L1"],
     odorsleuth: ["4L1"],
@@ -31437,7 +31437,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   riolu: {
-    learnset: {
+    inherit: true, learnset: {
     quickattack: ["4L1"],
     foresight: ["4L1"],
     endure: ["4L1"],
@@ -31510,7 +31510,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lucario: {
-    learnset: {
+    inherit: true, learnset: {
     quickattack: ["4L1"],
     foresight: ["4L1"],
     detect: ["4L1"],
@@ -31601,7 +31601,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   hippopotas: {
-    learnset: {
+    inherit: true, learnset: {
     sandattack: ["4L1"],
     tackle: ["4L1"],
     bite: ["4L1"],
@@ -31654,7 +31654,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   hippowdon: {
-    learnset: {
+    inherit: true, learnset: {
     sandattack: ["4L1"],
     tackle: ["4L1"],
     bite: ["4L1"],
@@ -31714,7 +31714,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   skorupi: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     bite: ["4L1"],
     leer: ["4L1"],
@@ -31784,7 +31784,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   drapion: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     pinmissile: ["4L1"],
     leer: ["4L1"],
@@ -31863,7 +31863,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   croagunk: {
-    learnset: {
+    inherit: true, learnset: {
     astonish: ["4L1"],
     mudslap: ["4L1"],
     poisonsting: ["4L1"],
@@ -31943,7 +31943,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   toxicroak: {
-    learnset: {
+    inherit: true, learnset: {
     poisonsting: ["4L1"],
     mudslap: ["4L1"],
     astonish: ["4L1"],
@@ -32028,7 +32028,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   carnivine: {
-    learnset: {
+    inherit: true, learnset: {
     bind: ["4L1"],
     growth: ["4L1"],
     bite: ["4L1"],
@@ -32091,7 +32091,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   finneon: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     watergun: ["4L1"],
     attract: ["4L1"],
@@ -32149,7 +32149,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lumineon: {
-    learnset: {
+    inherit: true, learnset: {
     pound: ["4L1"],
     watergun: ["4L1"],
     attract: ["4L1"],
@@ -32208,7 +32208,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mantyke: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     bubble: ["4L1"],
     supersonic: ["4L1"],
@@ -32266,7 +32266,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   snover: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     powdersnow: ["4L1"],
     razorleaf: ["4L1"],
@@ -32327,7 +32327,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   abomasnow: {
-    learnset: {
+    inherit: true, learnset: {
     icepunch: ["4L1"],
     leer: ["4L1"],
     razorleaf: ["4L1"],
@@ -32402,7 +32402,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   weavile: {
-    learnset: {
+    inherit: true, learnset: {
     scratch: ["4L1"],
     leer: ["4L1"],
     quickattack: ["4L1"],
@@ -32498,7 +32498,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   magnezone: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     supersonic: ["4L1"],
     thundershock: ["4L1"],
@@ -32560,7 +32560,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   lickilicky: {
-    learnset: {
+    inherit: true, learnset: {
     lick: ["4L1"],
     supersonic: ["4L1"],
     defensecurl: ["4L1"],
@@ -32657,7 +32657,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rhyperior: {
-    learnset: {
+    inherit: true, learnset: {
     stomp: ["4L1"],
     hornattack: ["4L1"],
     furyattack: ["4L1"],
@@ -32765,7 +32765,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   tangrowth: {
-    learnset: {
+    inherit: true, learnset: {
     constrict: ["4L1"],
     ingrain: ["4L1"],
     sleeppowder: ["4L1"],
@@ -32848,7 +32848,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   electivire: {
-    learnset: {
+    inherit: true, learnset: {
     firepunch: ["4L1"],
     leer: ["4L1"],
     lowkick: ["4L1"],
@@ -32927,7 +32927,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   magmortar: {
-    learnset: {
+    inherit: true, learnset: {
     thunderpunch: ["4L1"],
     leer: ["4L1"],
     ember: ["4L1"],
@@ -33004,7 +33004,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   togekiss: {
-    learnset: {
+    inherit: true, learnset: {
     skyattack: ["4L1"],
     extremespeed: ["4L1"],
     aurasphere: ["4L1"],
@@ -33108,7 +33108,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   yanmega: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     quickattack: ["4L1"],
     doubleteam: ["4L1"],
@@ -33179,7 +33179,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   leafeon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     helpinghand: ["4L1"],
@@ -33257,7 +33257,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   glaceon: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     tailwhip: ["4L1"],
     helpinghand: ["4L1"],
@@ -33328,7 +33328,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gliscor: {
-    learnset: {
+    inherit: true, learnset: {
     sandattack: ["4L1"],
     harden: ["4L1"],
     knockoff: ["4L1"],
@@ -33416,7 +33416,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mamoswine: {
-    learnset: {
+    inherit: true, learnset: {
     peck: ["4L1"],
     powdersnow: ["4L1"],
     ancientpower: ["4L1"],
@@ -33493,7 +33493,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   porygonz: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     conversion: ["4L1"],
     conversion2: ["4L1"],
@@ -33563,7 +33563,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   gallade: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     confusion: ["4L1"],
     teleport: ["4L1"],
@@ -33677,7 +33677,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   probopass: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     irondefense: ["4L1"],
     block: ["4L1"],
@@ -33750,7 +33750,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dusknoir: {
-    learnset: {
+    inherit: true, learnset: {
     firepunch: ["4L1"],
     icepunch: ["4L1"],
     thunderpunch: ["4L1"],
@@ -33844,7 +33844,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   froslass: {
-    learnset: {
+    inherit: true, learnset: {
     leer: ["4L1"],
     doubleteam: ["4L1"],
     powdersnow: ["4L1"],
@@ -33920,7 +33920,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rotom: {
-    learnset: {
+    inherit: true, learnset: {
     thundershock: ["4L1"],
     thunderwave: ["4L1"],
     confuseray: ["4L1"],
@@ -33970,7 +33970,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   uxie: {
-    learnset: {
+    inherit: true, learnset: {
     rest: ["4L1"],
     imprison: ["4L1"],
     endure: ["4L1"],
@@ -34045,7 +34045,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   mesprit: {
-    learnset: {
+    inherit: true, learnset: {
     rest: ["4L1"],
     imprison: ["4L1"],
     protect: ["4L1"],
@@ -34119,7 +34119,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   azelf: {
-    learnset: {
+    inherit: true, learnset: {
     rest: ["4L1"],
     imprison: ["4L1"],
     detect: ["4L1"],
@@ -34197,7 +34197,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   dialga: {
-    learnset: {
+    inherit: true, learnset: {
     scaryface: ["4L1"],
     dragonbreath: ["4L1"],
     metalclaw: ["4L1"],
@@ -34273,7 +34273,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   palkia: {
-    learnset: {
+    inherit: true, learnset: {
     scaryface: ["4L1"],
     dragonbreath: ["4L1"],
     waterpulse: ["4L1"],
@@ -34351,7 +34351,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   heatran: {
-    learnset: {
+    inherit: true, learnset: {
     ancientpower: ["4L1"],
     leer: ["4L1"],
     firefang: ["4L1"],
@@ -34414,7 +34414,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   regigigas: {
-    learnset: {
+    inherit: true, learnset: {
     megapunch: ["4L1"],
     firepunch: ["4L1"],
     icepunch: ["4L1"],
@@ -34478,7 +34478,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   giratina: {
-    learnset: {
+    inherit: true, learnset: {
     scaryface: ["4L1"],
     dragonbreath: ["4L1"],
     ominouswind: ["4L1"],
@@ -34557,7 +34557,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   cresselia: {
-    learnset: {
+    inherit: true, learnset: {
     confusion: ["4L1"],
     doubleteam: ["4L1"],
     safeguard: ["4L1"],
@@ -34619,7 +34619,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   phione: {
-    learnset: {
+    inherit: true, learnset: {
     bubble: ["4L1"],
     watersport: ["4L1"],
     charm: ["4L1"],
@@ -34673,7 +34673,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   manaphy: {
-    learnset: {
+    inherit: true, learnset: {
     bubble: ["4L1"],
     tailglow: ["4L1"],
     watersport: ["4L1"],
@@ -34737,7 +34737,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   darkrai: {
-    learnset: {
+    inherit: true, learnset: {
     disable: ["4L1"],
     nightshade: ["4L1"],
     quickattack: ["4L1"],
@@ -34818,7 +34818,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shaymin: {
-    learnset: {
+    inherit: true, learnset: {
     defensecurl: ["4L1"],
     magicalleaf: ["4L1"],
     leechseed: ["4L1"],
@@ -34871,7 +34871,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   arceus: {
-    learnset: {
+    inherit: true, learnset: {
     seismictoss: ["4L1"],
     cosmicpower: ["4L1"],
     naturalgift: ["4L1"],
@@ -34989,7 +34989,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   deoxysattack: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     leer: ["4L1"],
     nightshade: ["4L1"],
@@ -35078,7 +35078,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   deoxysdefense: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     leer: ["4L1"],
     nightshade: ["4L1"],
@@ -35169,7 +35169,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   deoxysspeed: {
-    learnset: {
+    inherit: true, learnset: {
     wrap: ["4L1"],
     leer: ["4L1"],
     nightshade: ["4L1"],
@@ -35264,7 +35264,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wormadamsandy: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     protect: ["4L1"],
     hiddenpower: ["4L1"],
@@ -35324,7 +35324,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   wormadamtrash: {
-    learnset: {
+    inherit: true, learnset: {
     tackle: ["4L1"],
     protect: ["4L1"],
     hiddenpower: ["4L1"],
@@ -35382,7 +35382,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   shayminsky: {
-    learnset: {
+    inherit: true, learnset: {
     growth: ["4L1"],
     magicalleaf: ["4L1"],
     leechseed: ["4L1"],
@@ -35434,7 +35434,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   giratinaorigin: {
-    learnset: {
+    inherit: true, learnset: {
     scaryface: ["4L1"],
     dragonbreath: ["4L1"],
     ominouswind: ["4L1"],
@@ -35514,7 +35514,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rotomheat: {
-    learnset: {
+    inherit: true, learnset: {
     thundershock: ["4L1"],
     thunderwave: ["4L1"],
     confuseray: ["4L1"],
@@ -35565,7 +35565,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rotomwash: {
-    learnset: {
+    inherit: true, learnset: {
     thundershock: ["4L1"],
     thunderwave: ["4L1"],
     confuseray: ["4L1"],
@@ -35616,7 +35616,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rotomfrost: {
-    learnset: {
+    inherit: true, learnset: {
     thundershock: ["4L1"],
     thunderwave: ["4L1"],
     confuseray: ["4L1"],
@@ -35667,7 +35667,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rotomfan: {
-    learnset: {
+    inherit: true, learnset: {
     thundershock: ["4L1"],
     thunderwave: ["4L1"],
     confuseray: ["4L1"],
@@ -35718,7 +35718,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     },
   },
   rotommow: {
-    learnset: {
+    inherit: true, learnset: {
     thundershock: ["4L1"],
     thunderwave: ["4L1"],
     confuseray: ["4L1"],

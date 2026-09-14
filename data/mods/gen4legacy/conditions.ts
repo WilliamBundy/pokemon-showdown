@@ -160,6 +160,12 @@ export const Conditions: import('../../../sim/dex-conditions').ModdedConditionDa
 	hail: {
 		inherit: true,
 		onFieldResidualOrder: 8,
+		onModifyDefPriority: 10,
+		onModifyDef(def, pokemon) {
+			if (pokemon.hasType('Ice') && this.field.isWeather('hail')) {
+				return this.modify(def, 1.5);
+			}
+		},
 	},
 	// Arceus's true typing for all its formes is Normal, and it's only Multitype
 	// that changes its type, but its formes are specified to be their corresponding
