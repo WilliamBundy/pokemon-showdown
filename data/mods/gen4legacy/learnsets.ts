@@ -14369,7 +14369,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     nightmare: ["4L1"],
     },
   },
-  unowna: {
+  unown: {
     learnset: {
     hiddenpower: ["4L1"],
     ancientpower: ["4L1"],
@@ -27436,7 +27436,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     nightmare: ["4L1"],
     },
   },
-  deoxysnormal: {
+  deoxys: {
     learnset: {
     wrap: ["4L1"],
     leer: ["4L1"],
@@ -29169,7 +29169,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     superfang: ["4L1"],
     },
   },
-  burmyplant: {
+  burmy: {
     learnset: {
     protect: ["4L1"],
     tackle: ["4L1"],
@@ -29179,7 +29179,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     stringshot: ["4L1"],
     },
   },
-  wormadamplant: {
+  wormadam: {
     learnset: {
     tackle: ["4L1"],
     protect: ["4L1"],
@@ -29237,7 +29237,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     bugbuzz: ["4L1"],
     },
   },
-  mothimplant: {
+  mothim: {
     learnset: {
     tackle: ["4L1"],
     protect: ["4L1"],
@@ -29624,7 +29624,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     zenheadbutt: ["4L1"],
     },
   },
-  cherrimovercast: {
+  cherrim: {
     learnset: {
     tackle: ["4L1"],
     growth: ["4L1"],
@@ -29675,7 +29675,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     weatherball: ["4L1"],
     },
   },
-  shelloswest: {
+  shellos: {
     learnset: {
     mudslap: ["4L1"],
     mudsport: ["4L1"],
@@ -29730,7 +29730,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     whirlpool: ["4L1"],
     },
   },
-  gastrodonwest: {
+  gastrodon: {
     learnset: {
     harden: ["4L1"],
     mudslap: ["4L1"],
@@ -34477,7 +34477,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     protect: ["4L1"],
     },
   },
-  giratinaaltered: {
+  giratina: {
     learnset: {
     scaryface: ["4L1"],
     dragonbreath: ["4L1"],
@@ -34817,7 +34817,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     headbutt: ["4L1"],
     },
   },
-  shayminland: {
+  shaymin: {
     learnset: {
     defensecurl: ["4L1"],
     magicalleaf: ["4L1"],
@@ -34870,7 +34870,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     headbutt: ["4L1"],
     },
   },
-  arceusnormal: {
+  arceus: {
     learnset: {
     seismictoss: ["4L1"],
     cosmicpower: ["4L1"],

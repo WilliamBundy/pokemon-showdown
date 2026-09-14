@@ -999,7 +999,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 60, atk: 60, def: 60, spa: 90, spd: 90, spe: 85},
 		abilities: { 0: "Levitate" },
 	},
-	unowna: {
+	unown: {
 		inherit: true,
 		baseStats: { hp: 58, atk: 82, def: 58, spa: 82, spd: 58, spe: 58},
 		abilities: { 0: "Levitate" },
@@ -2054,17 +2054,17 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 80, atk: 52, def: 168, spa: 47, spd: 137, spe: 20},
 		abilities: { 0: "Sturdy", 1: "Soundproof" },
 	},
-	burmyplant: {
+	burmy: {
 		inherit: true,
 		baseStats: { hp: 40, atk: 29, def: 45, spa: 29, spd: 45, spe: 36},
 		abilities: { 0: "Shed Skin" },
 	},
-	wormadamplant: {
+	wormadam: {
 		inherit: true,
 		baseStats: { hp: 70, atk: 79, def: 95, spa: 79, spd: 95, spe: 36},
 		abilities: { 0: "Anticipation", 1: "Filter" },
 	},
-	mothimplant: {
+	mothim: {
 		inherit: true,
 		baseStats: { hp: 80, atk: 104, def: 45, spa: 104, spd: 45, spe: 76},
 		abilities: { 0: "Swarm", 1: "Tinted Lens" },
@@ -2099,17 +2099,17 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 45, atk: 55, def: 45, spa: 62, spd: 53, spe: 35},
 		abilities: { 0: "Chlorophyll" },
 	},
-	cherrimovercast: {
+	cherrim: {
 		inherit: true,
 		baseStats: { hp: 70, atk: 80, def: 60, spa: 87, spd: 68, spe: 115},
 		abilities: { 0: "Flower Gift" },
 	},
-	shelloswest: {
+	shellos: {
 		inherit: true,
 		baseStats: { hp: 76, atk: 48, def: 48, spa: 57, spd: 62, spe: 34},
 		abilities: { 0: "Sticky Hold", 1: "Storm Drain" },
 	},
-	gastrodonwest: {
+	gastrodon: {
 		inherit: true,
 		baseStats: { hp: 111, atk: 83, def: 68, spa: 92, spd: 82, spe: 39},
 		abilities: { 0: "Sticky Hold", 1: "Storm Drain" },
@@ -2429,7 +2429,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 110, atk: 160, def: 110, spa: 80, spd: 110, spe: 100},
 		abilities: { 0: "Slow Start" },
 	},
-	giratinaaltered: {
+	giratina: {
 		inherit: true,
 		baseStats: { hp: 150, atk: 100, def: 120, spa: 100, spd: 120, spe: 90},
 		abilities: { 0: "Pressure" },
@@ -2454,12 +2454,12 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		baseStats: { hp: 70, atk: 90, def: 90, spa: 135, spd: 90, spe: 125},
 		abilities: { 0: "Bad Dreams" },
 	},
-	shayminland: {
+	shaymin: {
 		inherit: true,
 		baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: { 0: "Natural Cure" },
 	},
-	arceusnormal: {
+	arceus: {
 		inherit: true,
 		baseStats: { hp: 120, atk: 120, def: 120, spa: 120, spd: 120, spe: 120},
 		abilities: { 0: "Multitype" },
