@@ -1,6 +1,6 @@
 export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTable = {
 	// we want the modern versions of these
-	// so I've set them to inhert: false and grabbed the gen9 versions
+	// so I've set them to inherit: false and grabbed the gen9 versions
 	illuminate: {
 		inherit: false,
 		onTryBoost(boost, target, source, effect) {
@@ -21,7 +21,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		num: 35,
 	},
 	lightningrod: {
-		inherit: false
+		inherit: false,
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Electric') {
 				if (!this.boost({ spa: 1 })) {
