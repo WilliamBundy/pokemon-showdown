@@ -30886,7 +30886,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     roleplay: ["3L1"],
     },
   },
-  mimejr.: {
+  mimejr: {
     learnset: {
     confusion: ["3L1"],
     barrier: ["3L1"],

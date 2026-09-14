@@ -2189,7 +2189,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedSpeciesDataTabl
 		baseStats: { hp: 50, atk: 80, def: 95, spa: 10, spd: 55, spe: 10},
 		abilities: { 0: "Sturdy", 1: "Rock Head" },
 	},
-	mimejr.: {
+	mimejr: {
 		inherit: true,
 		baseStats: { hp: 20, atk: 25, def: 45, spa: 70, spd: 90, spe: 60},
 		abilities: { 0: "Soundproof", 1: "Filter" },
