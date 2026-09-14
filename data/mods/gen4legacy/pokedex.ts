@@ -1,4 +1,4 @@
-export const Learnsets: import('../../../sim/dex-species').ModdedSpeciesDataTable = {
+export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable = {
 	bulbasaur: {
 		inherit: true,
 		baseStats: { hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
