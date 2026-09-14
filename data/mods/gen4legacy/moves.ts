@@ -73,7 +73,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		inherit: true,
 		basePower: 20,
 		accuracy: 100
-	}
+	},
 	beatup: {
 		inherit: true,
 		basePower: 10,
