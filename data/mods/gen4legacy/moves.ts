@@ -56,9 +56,25 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		pp: 15,
 	},
 	avalanche: {
-		inherit: true,
-		priority: 0,
+		num: 419,
+		inherit: false,
+		accuracy: 100,
 		basePower: 50,
+		basePowerCallback(pokemon, target) {
+			if (this.queue.willMove(target)) {
+				return 50;
+			}
+			this.debug('BP doubled');
+			return 100;
+		},
+		category: "Physical",
+		name: "Avalanche",
+		pp: 10,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		target: "normal",
+		type: "Ice",
+		contestType: "Tough",
 	},
 	barrage: {
 		inherit: true,
@@ -205,6 +221,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		basePower: 55,
 		accuracy: 95,
 		pp: 30,
+		critRatio: 2,
 	},
 	defendorder: {
 		inherit: true,
@@ -213,6 +230,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		inherit: true,
 		type: "Fighting",
 		pp: 5,
+		priority: 4,
 	},
 	dig: {
 		inherit: true,
@@ -309,6 +327,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		type: "Normal",
 		basePower: 40,
 		accuracy: 100,
+		priority: 3,
 		pp: 10,
 	},
 	feint: {
@@ -356,6 +375,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		inherit: true,
 		type: "Normal",
 		pp: 20,
+		priority: 2,
 	},
 	furyattack: {
 		inherit: true,
@@ -408,6 +428,15 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		inherit: true,
 		type: "Normal",
 		pp: 40,
+		onModifyMove(move, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				move.boosts = { spa: 2 };
+			}
+		},
+		boosts: {
+			spa: 1,
+		},
+
 	},
 	gunkshot: {
 		inherit: true,
@@ -497,6 +526,12 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		basePower: 100,
 		accuracy: 90,
 		pp: 15,
+		secondary: {
+			chance: 20,
+			boosts: {
+				def: -1,
+			},
+		},
 	},
 	jumpkick: {
 		inherit: true,
@@ -572,6 +607,14 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		basePower: 55,
 		accuracy: 95,
 		pp: 30,
+		secondary: {
+			chance: 20,
+			self: {
+				boosts: {
+					atk: 1,
+				},
+			},
+		},
 	},
 	meteormash: {
 		inherit: true,
@@ -714,6 +757,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		inherit: true,
 		type: "Normal",
 		pp: 10,
+		priority: 4,
 	},
 	psychic: {
 		inherit: true,
@@ -727,6 +771,9 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		type: "Psychic",
 		accuracy: 90,
 		pp: 15,
+		damageCallback(pokemon) {
+			return (this.random(100, 121) * pokemon.level) / 100;
+		},
 	},
 	raindance: {
 		inherit: true,
@@ -734,11 +781,19 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		pp: 10,
 	},
 	razorwind: {
-		inherit: true,
-		type: "Flying",
+		inherit: false,
+		num: 13,
+		accuracy: 85,
 		basePower: 35,
-		accuracy: 90,
+		category: "Special",
+		name: "Razor Wind",
 		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		volatileStatus: 'partiallytrapped',
+		target: "normal",
+		type: "Flying",
+		contestType: "Beautiful",
 	},
 	recover: {
 		inherit: true,
@@ -988,6 +1043,12 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		basePower: 55,
 		accuracy: 100,
 		pp: 30,
+		secondary: {
+			chance: 20,
+			boosts: {
+				def: -1,
+			},
+		},
 	},
 	vitalthrow: {
 		inherit: true,
