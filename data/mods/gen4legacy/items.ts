@@ -1,7 +1,7 @@
 export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 	// modern mental herb
 	mentalherb: {
-		inherit: false
+		inherit: false,
 		name: "Mental Herb",
 		spritenum: 285,
 		fling: {
