@@ -22,7 +22,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Legacy Formats"
 	},
 	{
-		name: "[Gen 4] VGC Draft",
+		name: "[Gen 4] Legacy",
 		mod: 'gen4legacy',
 		gameType: 'doubles',
 		searchShow: true,
