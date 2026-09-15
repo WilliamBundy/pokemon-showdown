@@ -33,7 +33,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Legacy Formats"
 	},
 	{
-		name: "[Platinum Legacy] BSS-style Singles",
+		name: "[Legacy 4] BSS-style Singles",
 		mod: 'legacy4',
 		gameType: 'singles',
 		searchShow: true,
@@ -43,7 +43,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Restricted Legendary'],
 	},
 	{
-		name: "[Platinum Legacy] VGC-style doubles",
+		name: "[Legacy 4] VGC-style doubles",
 		mod: 'legacy4',
 		gameType: 'doubles',
 		searchShow: true,
