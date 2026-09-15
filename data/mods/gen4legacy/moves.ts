@@ -984,6 +984,20 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		inherit: true,
 		type: "Flying",
 		pp: 30,
+		condition: {
+			inherit: true,
+			// I don't really know when this would be called, but I think 
+			// I'll need to override it so that it can't accidentally set
+			// duration to 3
+			durationCallback(target, source, effect) {
+				if (source?.hasAbility('persistent')) {
+					this.add('-activate', source, 'ability: Persistent', '[move] Tailwind');
+					return 5;
+				}
+				return 4;
+			},
+			duration: 4,
+		},
 	},
 	takedown: {
 		inherit: true,
