@@ -336,6 +336,9 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		basePower: 30,
 		accuracy: 100,
 		pp: 10,
+		onTry(source, target) {
+			// should always return true?
+		},
 	},
 	feintattack: {
 		inherit: true,
