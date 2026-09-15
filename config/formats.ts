@@ -33,8 +33,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		section: "Legacy Formats"
 	},
 	{
-		name: "[Legacy 4] BSS-style Singles",
-		mod: 'legacy4',
+		name: "[Gen 4] PtL BSS",
+		desc: "Battle Spot Singles-style battles using the Platinum Legacy romhack (pick 6, bring 3)",
+		mod: 'gen4legacy',
 		gameType: 'singles',
 		searchShow: true,
 		bestOfDefault: true,
@@ -43,8 +44,9 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Restricted Legendary'],
 	},
 	{
-		name: "[Legacy 4] VGC-style doubles",
-		mod: 'legacy4',
+		name: "[Gen 4] PtL VGC",
+		desc: "VGC-style double battles using the Platinum Legacy romhack (pick 6, bring 4)",
+		mod: 'gen4legacy',
 		gameType: 'doubles',
 		searchShow: true,
 		bestOfDefault: true,
