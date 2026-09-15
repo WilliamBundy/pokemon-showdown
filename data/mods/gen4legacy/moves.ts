@@ -225,6 +225,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 	},
 	defendorder: {
 		inherit: true,
+		target: "adjacentAllyOrSelf"
 	},
 	detect: {
 		inherit: true,
@@ -475,6 +476,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 	},
 	healorder: {
 		inherit: true,
+		target: "adjacentAllyOrSelf"
 	},
 	highjumpkick: {
 		inherit: true,
@@ -487,6 +489,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		inherit: true,
 		type: "Normal",
 		pp: 40,
+		target: "allies",
 	},
 	hydropump: {
 		inherit: true,
@@ -501,6 +504,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		basePower: 100,
 		accuracy: 100,
 		pp: 10,
+
 	},
 	icebeam: {
 		inherit: true,
@@ -879,11 +883,22 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		pp: 15,
 	},
 	skyattack: {
-		inherit: true,
-		type: "Flying",
-		basePower: 120,
-		accuracy: 85,
+		inherit: false,
+		num: 17,
+		accuracy: 90,
+		basePower: 100,
+		category: "Special",
+		name: "Sky Attack",
 		pp: 10,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, distance: 1, metronome: 1 },
+		target: "any",
+		type: "Flying",
+		contestType: "Cool",
+		secondary: {
+			chance: 10,
+			volatileStatus: 'flinch',
+		},
 	},
 	skyuppercut: {
 		inherit: true,

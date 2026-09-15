@@ -24,9 +24,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Electric') {
-				if (!this.boost({ spa: 1 })) {
-					this.add('-immune', target, '[from] ability: Lightning Rod');
-				}
+				this.add('-immune', target, '[from] ability: Lightning Rod');
 				return null;
 			}
 		},
@@ -85,9 +83,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		inherit: false,
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Water') {
-				if (!this.boost({ spa: 1 })) {
-					this.add('-immune', target, '[from] ability: Storm Drain');
-				}
+				this.add('-immune', target, '[from] ability: Storm Drain');
 				return null;
 			}
 		},
