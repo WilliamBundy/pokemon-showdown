@@ -2503,25 +2503,30 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 		inherit: true,
 		baseStats: { hp: 50, atk: 65, def: 107, spa: 105, spd: 107, spe: 86},
 		abilities: { 0: "Levitate" },
+		types: ["Electric", "Fire"],
 	},
 	rotomwash: {
 		inherit: true,
 		baseStats: { hp: 50, atk: 65, def: 107, spa: 105, spd: 107, spe: 86},
 		abilities: { 0: "Levitate" },
+		types: ["Electric", "Water"],
 	},
 	rotomfrost: {
 		inherit: true,
 		baseStats: { hp: 50, atk: 65, def: 107, spa: 105, spd: 107, spe: 86},
 		abilities: { 0: "Levitate" },
+		types: ["Electric", "Ice"],
 	},
 	rotomfan: {
 		inherit: true,
 		baseStats: { hp: 50, atk: 65, def: 107, spa: 105, spd: 107, spe: 86},
 		abilities: { 0: "Levitate" },
+		types: ["Electric", "Flying"],
 	},
 	rotommow: {
 		inherit: true,
 		baseStats: { hp: 50, atk: 65, def: 107, spa: 105, spd: 107, spe: 86},
 		abilities: { 0: "Levitate" },
+		types: ["Electric", "Grass"],
 	},
 }
