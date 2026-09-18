@@ -18120,6 +18120,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     magicalleaf: ["4L1"],
     razorwind: ["4L1"],
     focusenergy: ["4L1"],
+    fakeout: ["4L1"],
     },
   },
   sceptile: {
