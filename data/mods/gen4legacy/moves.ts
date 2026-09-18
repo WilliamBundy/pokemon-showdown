@@ -1142,7 +1142,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		priority: 0,
 		flags: { snatch: 1, metronome: 1 },
 		boosts: {
-			spa: 3,
+			spa: 2,
 		},
 		target: "self",
 		type: "Bug",
