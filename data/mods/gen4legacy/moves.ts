@@ -54,6 +54,7 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		basePower: 100,
 		accuracy: 100,
 		pp: 15,
+		target: "allAdjacentFoes",
 	},
 	avalanche: {
 		num: 419,
@@ -1129,5 +1130,23 @@ export const Moves: import('../../../sim/dex-species').ModdedMoveDataTable = {
 		basePower: 80,
 		accuracy: 95,
 		pp: 15,
+	},
+	tailglow: {
+		inherit: true,
+		num: 294,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Tail Glow",
+		pp: 20,
+		priority: 0,
+		flags: { snatch: 1, metronome: 1 },
+		boosts: {
+			spa: 3,
+		},
+		target: "self",
+		type: "Bug",
+		zMove: { effect: 'clearnegativeboost' },
+		contestType: "Beautiful",
 	},
 }
