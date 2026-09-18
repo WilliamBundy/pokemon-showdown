@@ -39,6 +39,24 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		num: 219,
 		gen: 3,
 	},
+	focussash: { // use modern focus sash to match modern sturdy
+		inherit:false,
+		name: "Focus Sash",
+		spritenum: 151,
+		fling: {
+			basePower: 10,
+		},
+		onDamagePriority: -40,
+		onDamage(damage, target, source, effect) {
+			if (target.hp === target.maxhp && damage >= target.hp && effect && effect.effectType === 'Move') {
+				if (target.useItem()) {
+					return target.hp - 1;
+				}
+			}
+		},
+		num: 275,
+		gen: 4,
+	},
 
 /*
 emitted by:
