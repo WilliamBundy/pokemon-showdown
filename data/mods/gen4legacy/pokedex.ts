@@ -272,7 +272,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	golduck: {
 		inherit: true,
 		baseStats: { hp: 80, atk: 82, def: 78, spa: 95, spd: 80, spe: 85},
-		abilities: { 0: "Damp", 1: "Cloud Nine" },
+		abilities: { 0: "Magic Guard", 1: "Cloud Nine" },
 	},
 	mankey: {
 		inherit: true,
