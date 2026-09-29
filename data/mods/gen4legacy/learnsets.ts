@@ -28629,6 +28629,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     taunt: ["4L1"],
     agility: ["4L1"],
     aquatail: ["4L1"],
+    uturn: ["4L1"],
     },
   },
   luxio: {
@@ -28683,6 +28684,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     icefang: ["4L1"],
     firefang: ["4L1"],
     nightslash: ["4L1"],
+    uturn: ["4L1"],
     },
   },
   luxray: {
