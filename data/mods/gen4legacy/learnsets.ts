@@ -10795,7 +10795,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     nightmare: ["4L1"],
     feintattack: ["4L1"],
     zapcannon: ["4L1"],
-    fakeout: ["4L1"],
+    //fakeout: ["4L1"],
     },
   },
   chikorita: {
@@ -28740,6 +28740,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
     icefang: ["4L1"],
     firefang: ["4L1"],
     nightslash: ["4L1"],
+    uturn: ["4L1"],
     },
   },
   budew: {
