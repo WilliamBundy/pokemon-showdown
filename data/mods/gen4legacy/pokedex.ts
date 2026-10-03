@@ -306,7 +306,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	},
 	poliwrath: {
 		inherit: true,
-		baseStats: { hp: 90, atk: 95, def: 95, spa: 70, spd: 90, spe: 70},
+		baseStats: { hp: 90, atk: 100, def: 95, spa: 65, spd: 90, spe: 70},
 		abilities: { 0: "Water Absorb", 1: "Damp" },
 	},
 	abra: {
