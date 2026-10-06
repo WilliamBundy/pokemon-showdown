@@ -307,7 +307,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	poliwrath: {
 		inherit: true,
 		baseStats: { hp: 90, atk: 100, def: 95, spa: 65, spd: 90, spe: 70},
-		abilities: { 0: "Water Absorb", 1: "Damp" },
+		abilities: { 0: "Iron Fist", 1: "Damp" },
 	},
 	abra: {
 		inherit: true,
@@ -2312,7 +2312,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
 	lickilicky: {
 		inherit: true,
 		baseStats: { hp: 110, atk: 85, def: 95, spa: 80, spd: 95, spe: 50},
-		abilities: { 0: "Own Tempo", 1: "Oblivious" },
+		abilities: { 0: "Own Tempo", 1: "Unaware" },
 	},
 	rhyperior: {
 		inherit: true,
