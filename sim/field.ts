@@ -44,7 +44,9 @@ export class Field {
 
 		if (this.weather === status.id) {
 			if (sourceEffect && sourceEffect.effectType === 'Ability') {
-				if (this.battle.gen > 5 || this.weatherState.duration === 0) {
+				// TODO(will) figure out how to access the current dex/mod here and 
+				// to change this behavior without hardcoding it
+				if (this.battle.gen > 3 || this.weatherState.duration === 0) {
 					return false;
 				}
 			} else if (this.battle.gen > 2 || status.id === 'sandstorm') {
