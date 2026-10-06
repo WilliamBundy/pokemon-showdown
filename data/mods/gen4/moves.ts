@@ -273,7 +273,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 				delete move.volatileStatus;
 				delete move.onHit;
 				move.self = { boosts: { atk: 1, def: 1, spe: -1 } };
-				move.target = move.nonGhostTarget!;
+				move.target = 'self';
 			} else if (target?.volatiles['substitute']) {
 				delete move.volatileStatus;
 				delete move.onHit;
@@ -425,6 +425,18 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 				this.add('-fail', pokemon);
 				return null;
 			}
+		},
+	},
+	endure: {
+		inherit: true,
+		condition: {
+			inherit: true,
+			onDamage(damage, target, source, effect) {
+				if (effect?.effectType === 'Move' && !effect?.flags['futuremove'] && damage >= target.hp) {
+					this.add('-activate', target, 'move: Endure');
+					return target.hp - 1;
+				}
+			},
 		},
 	},
 	extremespeed: {
@@ -1079,7 +1091,8 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 				const move = this.dex.getActiveMove('pursuit');
 				source.deductPP(move.id);
 				source.moveUsed(move, pokemon.position);
-				if (this.actions.useMove(move, source, { target: pokemon }) && source.getItem().isChoice) {
+				if (this.actions.useMove(move, source, { target: pokemon, sourceEffect: this.effectState.sourceEffect }) &&
+					source.getItem().isChoice) {
 					source.addVolatile('choicelock');
 				}
 			},
