@@ -12583,6 +12583,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
       flail: ["4L1"],
       headbutt: ["4L1"],
       surf: ["4L1"],
+      teeterdance: ["4L1"],
     },
   },
   cleffa: {
@@ -14717,7 +14718,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
       extrasensory: ["4L1"],
     },
   },
-  unowna: {
+  unown: {
     inherit: false,
     learnset: {
       hiddenpower: ["4L1"],
@@ -28251,7 +28252,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
       nightmare: ["4L1"],
     },
   },
-  deoxysnormal: {
+  deoxys: {
     inherit: false,
     learnset: {
       wrap: ["4L1"],
@@ -30500,7 +30501,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
       zenheadbutt: ["4L1"],
     },
   },
-  cherrimovercast: {
+  cherrim: {
     inherit: false,
     learnset: {
       tackle: ["4L1"],
@@ -30552,7 +30553,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
       weatherball: ["4L1"],
     },
   },
-  shelloswest: {
+  shellos: {
     inherit: false,
     learnset: {
       mudslap: ["4L1"],
@@ -30609,7 +30610,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
       mudshot: ["4L1"],
     },
   },
-  gastrodonwest: {
+  gastrodon: {
     inherit: false,
     learnset: {
       harden: ["4L1"],
@@ -35437,7 +35438,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
       protect: ["4L1"],
     },
   },
-  giratinaaltered: {
+  giratina: {
     inherit: false,
     learnset: {
       scaryface: ["4L1"],
@@ -35782,7 +35783,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
       headbutt: ["4L1"],
     },
   },
-  shayminland: {
+  shaymin: {
     inherit: false,
     learnset: {
       defensecurl: ["4L1"],
@@ -35843,7 +35844,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
       tailwind: ["4L1"],
     },
   },
-  arceusnormal: {
+  arceus: {
     inherit: false,
     learnset: {
       seismictoss: ["4L1"],
